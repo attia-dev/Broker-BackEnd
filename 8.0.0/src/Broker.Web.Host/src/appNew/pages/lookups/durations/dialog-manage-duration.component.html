@@ -1,0 +1,49 @@
+﻿<nb-card style="width:500px;">
+    <nb-card-header>
+        {{this.l("Pages.Durations.ManageDuration")}}
+        <div class=" float-right">
+            <a class="btn btn-icon" (click)="cancel()"><nb-icon [icon]="'close'" pack="eva"></nb-icon></a>
+        </div>
+    </nb-card-header>
+    <nb-card-body>
+        <form [formGroup]="durationForm">
+            <div class="form-group">
+                <label for="period" class="label">{{this.l("Common.Period")}}</label>
+                <input type="text" nbInput fullWidth #nameAr placeholder='{{this.l("Common.Period")}}' [value]="durationPeriod" [formControl]="durationForm.controls['period']" [status]="!(durationForm.controls.period?.dirty && durationForm.controls.period?.invalid) ? '' : 'danger'" (keypress)="anyWholeNumber($event)" (change)="durationPeriod = $event.target.value" required />
+                <small [hidden]="!(durationForm.controls.period?.dirty && durationForm.controls.period?.invalid)" class="text-danger">
+                    {{this.l("Common.Required") }}
+                </small>
+            </div>
+            <div class="form-group">
+                <label for="amount" class="label">{{this.l("Common.Amount")}}</label>
+                <input type="text" nbInput fullWidth #nameEn placeholder='{{this.l("Common.Amount")}}' [value]="durationAmount" [formControl]="durationForm.controls['amount']" [status]="!(durationForm.controls.amount?.dirty && durationForm.controls.amount?.invalid) ? '' : 'danger'" (keypress)="anyDecimalNumber($event)" (change)="durationAmount = $event.target.value" required />
+                <small [hidden]="!(durationForm.controls.amount?.dirty && durationForm.controls.amount?.invalid)" class="text-danger">
+                    {{this.l("Common.Required") }}
+                </small>
+            </div>
+            <div class="form-group">
+                <label for="amount" class="label">{{this.l("Common.Type")}}</label>
+                <ng-multiselect-dropdown [placeholder]="l('Common.Select')"
+                                         [settings]="dropdownSettingsBuildingType"
+                                         class="col-xl-4 col-sm-5" style="padding:0;"
+                                         [data]="buildingType"
+                                         [(ngModel)]="selectedBuildingType"
+                                         [ngModelOptions]="{standalone: true}"
+                                         (onSelect)="onBuildingTypeSelect($event)"
+                                         (onDeSelect)="onBuildingTypeDeSelect()">
+                </ng-multiselect-dropdown>
+            </div>
+            <div class="form-group">
+                <label for="isPublish" class="label">{{this.l("Common.IsPublish")}}</label>
+                <label class="d-block mb-0 ac-ch">
+                    <input type="checkbox" class="group-checkable checkbox_animated" [formControl]="durationForm.controls['isPublish']" [checked]="durationIsPublish" (change)="durationIsPublish= $event.target.checked" />
+                </label>
+                <small [hidden]="!(durationForm.controls.isPublish?.dirty && durationForm.controls.isPublish?.invalid)" class="text-danger">
+                    {{this.l("Common.Required") }}
+                </small>
+            </div>
+            <button class="cancel" nbButton status="danger" (click)="cancel()">{{this.l("Common.Cancel") }}</button>
+            <button nbButton status="success" [disabled]="durationForm.invalid" (click)="submit()">{{this.l("Common.Save") }}</button>
+        </form>
+    </nb-card-body>
+</nb-card>

@@ -1,0 +1,28 @@
+﻿<nb-card style="width:500px;">
+    <nb-card-header>
+        {{this.l("Pages.Countries.ManageCountry")}}
+        <div class=" float-right">
+            <a class="btn btn-icon" (click)="cancel()"><nb-icon [icon]="'close'" pack="eva"></nb-icon></a>
+        </div>
+    </nb-card-header>
+    <nb-card-body>
+        <form [formGroup]="countryForm">
+            <div class="form-group">
+                <label for="nameAr" class="label">{{this.l("Common.NameAr")}}</label>
+                <input type="text" nbInput fullWidth #nameAr placeholder='{{this.l("Common.NameAr")}}'  [value]="countryNameAr" [formControl]="countryForm.controls['nameAr']" [status]="!(countryForm.controls.nameAr?.dirty && countryForm.controls.nameAr?.invalid) ? '' : 'danger'" (keypress)="checkArabicChar($event)" (change)="countryNameAr = $event.target.value" required />
+                <small [hidden]="!(countryForm.controls.nameAr?.dirty && countryForm.controls.nameAr?.invalid)" class="text-danger">
+                    {{this.l("Common.NameArRequired") }}
+                </small>
+            </div>
+            <div class="form-group">
+                <label for="nameEn" class="label">{{this.l("Common.NameEn")}}</label>
+                <input type="text" nbInput fullWidth #nameEn placeholder='{{this.l("Common.NameEn")}}' [value]="countryNameEn" [formControl]="countryForm.controls['nameEn']" [status]="!(countryForm.controls.nameEn?.dirty && countryForm.controls.nameEn?.invalid) ? '' : 'danger'" (keypress)="checkEnglishChar($event)"  (change)="countryNameEn = $event.target.value" required />
+                <small [hidden]="!(countryForm.controls.nameEn?.dirty && countryForm.controls.nameEn?.invalid)" class="text-danger">
+                    {{this.l("Common.NameEnRequired") }}
+                </small>
+            </div>
+            <button class="cancel" nbButton status="danger" (click)="cancel()">{{this.l("Common.Cancel") }}</button>
+            <button nbButton status="success" [disabled]="countryForm.invalid" (click)="submit()">{{this.l("Common.Save") }}</button>
+        </form>
+    </nb-card-body>
+</nb-card>

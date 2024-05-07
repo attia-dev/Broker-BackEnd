@@ -1,0 +1,74 @@
+﻿<nb-card style="width:500px;">
+    <nb-card-header>
+        {{this.l("Pages.Properties.ManageProperty")}}
+        <div class=" float-right">
+            <a class="btn btn-icon" (click)="cancel()"><nb-icon [icon]="'close'" pack="eva"></nb-icon></a>
+        </div>
+    </nb-card-header>
+    <nb-card-body>
+        <form [formGroup]="definitionForm">
+            <div class="form-group">
+                
+                <!--
+                    <label for="nameAr" class="label">{{this.l("Common.NameAr")}}</label>
+                <input type="text" nbInput fullWidth #nameAr placeholder='{{this.l("Common.NameAr")}}'  [value]="definitionNameAr" [formControl]="definitionForm.controls['nameAr']" [status]="!(definitionForm.controls.nameAr?.dirty && definitionForm.controls.nameAr?.invalid) ? '' : 'danger'" (keypress)="checkArabicChar($event)" (change)="definitionNameAr = $event.target.value" required />
+                <small [hidden]="!(definitionForm.controls.nameAr?.dirty && definitionForm.controls.nameAr?.invalid)" class="text-danger">
+                    {{this.l("Common.NameArRequired") }}
+                </small>
+                -->
+
+                <label for="nameAr" class="label">{{this.l("Common.NameAr")}}</label>
+                <input type="text" nbInput fullWidth #nameAr placeholder='{{this.l("Common.NameAr")}}' [value]="selectedObj.nameAr" [formControl]="definitionForm.controls['nameAr']" [status]="!(definitionForm.controls.nameAr?.dirty && definitionForm.controls.nameAr?.invalid) ? '' : 'danger'" (keypress)="checkArabicChar($event)" (change)="selectedObj.nameAr = $event.target.value" required />
+                <small [hidden]="!(definitionForm.controls.nameAr?.dirty && definitionForm.controls.nameAr?.invalid)" class="text-danger">
+                    {{l('Common.Error.Required')}}
+                </small>
+
+            </div>
+            <div class="form-group">
+                
+                <label for="nameEn" class="label">{{this.l("Common.NameEn")}}</label>
+                <input type="text" nbInput fullWidth #nameEn placeholder='{{this.l("Common.NameEn")}}' [value]="selectedObj.nameEn" [formControl]="definitionForm.controls['nameEn']" [status]="!(definitionForm.controls.nameEn?.dirty && definitionForm.controls.nameEn?.invalid) ? '' : 'danger'" (keypress)="checkEnglishChar($event)" (change)="selectedObj.nameEn = $event.target.value" required />
+                <small [hidden]="!(definitionForm.controls.nameEn?.dirty && definitionForm.controls.nameEn?.invalid)" class="text-danger">
+                    {{l('Common.Error.Required')}}
+                </small>
+
+            </div>
+            
+            <!--<div class="form-group">
+                
+                <label for="descriptionAr" class="label">{{this.l("Common.DescriptionAr")}}</label>
+                <input type="text" nbInput fullWidth #descriptionAr placeholder='{{this.l("Common.descriptionAr")}}' [value]="selectedObj.descriptionAr" [formControl]="definitionForm.controls['descriptionAr']" [status]="!(definitionForm.controls.descriptionAr?.dirty && definitionForm.controls.descriptionAr?.invalid) ? '' : 'danger'" (keypress)="checkArabicChar($event)" (change)="selectedObj.descriptionAr = $event.target.value" required />
+                <small [hidden]="!(definitionForm.controls.descriptionAr?.dirty && definitionForm.controls.descriptionAr?.invalid)" class="text-danger">
+                    {{l('Common.Error.Required')}}
+                </small>
+
+            </div> 
+
+            <div class="form-group">
+                
+                <label for="descriptionEn" class="label">{{this.l("Common.DescriptionEn")}}</label>
+                <input type="text" nbInput fullWidth #descriptionEn placeholder='{{this.l("Common.descriptionEn")}}' [value]="selectedObj.descriptionEn" [formControl]="definitionForm.controls['descriptionEn']" [status]="!(definitionForm.controls.descriptionEn?.dirty && definitionForm.controls.descriptionEn?.invalid) ? '' : 'danger'" (keypress)="checkEnglishChar($event)" (change)="selectedObj.descriptionEn = $event.target.value" required />
+                <small [hidden]="!(definitionForm.controls.descriptionEn?.dirty && definitionForm.controls.descriptionEn?.invalid)" class="text-danger">
+                    {{l('Common.Error.Required')}}
+                </small>
+
+            </div>--> 
+
+            <div class="form-group row">
+                <label class="col-xl-6 col-sm-6">{{l('Common.Avatar')}}</label>
+                <input type="file" accept="image/*" #file placeholder="Choose file" (change)="uploadFile(file.files)" style="display:none;">
+                <button class="img-upload" type="button" style="background-color: #008797;border-color: transparent;color: #fff;border-radius: 5px;" (click)="file.click()">
+                    {{ this.l("Common.UploadPhoto") }}
+                </button>
+
+            </div>
+            <div *ngIf="selectedObj.avatar" class="form-group col-lg-8 col-xxl-6">
+                <img src="{{ baseUrl + selectedObj.avatar}}" width="150" height="100" />
+            </div>
+
+             
+            <button class="cancel" nbButton status="danger" (click)="cancel()">{{this.l("Common.Cancel") }}</button>
+            <button nbButton status="success" [disabled]="definitionForm.invalid" (click)="submit()">{{this.l("Common.Save") }}</button>
+        </form>
+    </nb-card-body>
+</nb-card>

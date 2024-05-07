@@ -1,0 +1,68 @@
+﻿<nb-card style="width:500px;">
+    <nb-card-header>
+        {{this.l("Pages.ContactUs.ViewContactUs")}}
+        <div class=" float-right">
+            <a class="btn btn-icon" (click)="cancel()"><nb-icon [icon]="'close'" pack="eva"></nb-icon></a>
+        </div>
+    </nb-card-header>
+    <nb-card-body>
+        <form [formGroup]="contactUsForm">
+            <div class="form-group">
+
+                <label for="emailAddress" class="label">{{this.l("Common.EmailAddress")}}</label>
+                <input type="text" nbInput fullWidth #emailAddress placeholder='{{this.l("Common.EmailAddress")}}'
+                       [value]="selectedObj.emailAddress" [formControl]="contactUsForm.controls['emailAddress']"
+                       [pattern]="emailPattern"
+                       readonly
+                       [status]="!(contactUsForm.controls.emailAddress?.dirty && contactUsForm.controls.emailAddress?.invalid) ? '' : 'danger'"
+                       (change)="selectedObj.emailAddress = $event.target.value" required />
+                <small [hidden]="!(contactUsForm.controls.emailAddress?.dirty && contactUsForm.controls.emailAddress?.invalid)" class="text-danger">
+                    {{l('Common.Error.Required')}}
+                </small>
+
+            </div>
+            <div class="form-group">
+
+                <label for="emailSubject" class="label">{{this.l("Common.EmailSubject")}}</label>
+                <textarea style="height: 12rem;"
+                          readonly
+                          nbInput fullWidth #emailSubject placeholder='{{this.l("Common.EmailSubject")}}'
+                          [value]="selectedObj.emailSubject" [formControl]="contactUsForm.controls['emailSubject']"
+                          [status]="!(contactUsForm.controls.emailSubject?.dirty && contactUsForm.controls.emailSubject?.invalid) ? '' : 'danger'"
+                          (change)="selectedObj.emailSubject = $event.target.value" required>
+
+                </textarea>
+                <small [hidden]="!(contactUsForm.controls.emailSubject?.dirty && contactUsForm.controls.emailSubject?.invalid)" class="text-danger">
+                    {{l('Common.Error.Required')}}
+                </small>
+
+            </div>
+
+
+            <!--
+        <div class="form-group row">
+        <label class="col-xl-6 col-sm-6">{{l('Common.Avatar')}}</label>
+        <input type="file" accept="image/*" #file placeholder="Choose file" (change)="uploadFile(file.files)" style="display:none;">
+        <button class="img-upload" type="button" style="background-color: #008797;border-color: transparent;color: #fff;border-radius: 5px;" (click)="file.click()">
+            {{ this.l("Common.UploadPhoto") }}
+        </button>
+
+    </div>
+    -->
+            <div *ngIf="selectedObj.attachmentPath" class="form-group col-lg-8 col-xxl-6">
+                <a href="{{ baseUrl + selectedObj.attachmentPath}}" target="_blank" download>
+                    {{l('Common.DownloadFile')}}
+                </a>
+                    <!--<img src="{{ baseUrl + selectedObj.attachmentPath}}" width="150" height="100" />-->
+</div>
+
+
+            <button class="cancel" nbButton status="danger" (click)="cancel()">{{this.l("Common.Cancel") }}</button>
+
+            <!--
+        <button nbButton status="success" [disabled]="contactUsForm.invalid" (click)="submit()">{{this.l("Common.Save") }}</button>
+    -->
+
+        </form>
+    </nb-card-body>
+</nb-card>

@@ -1,0 +1,160 @@
+<div class="card card-custom example example-compact gutter-b">
+    <div class="card-header">
+        <div class="card-title">
+            <h3 class="card-label">{{ this.l("Pages.FeatureAds.Title") }}</h3>
+        </div>
+        <div class="card-toolbar">
+        </div>
+    </div>
+    <div class="card-body">
+        <div class="col-xl-12">
+            <div class="col-xl-12">
+                <form class="form" [formGroup]="featureAdsForm" novalidate="novalidate" id="kt_featureAds_form" (ngSubmit)="submit()">
+                    <ng-container *ngIf="hasError">
+                        <div class="mb-10 alert alert-custom alert-light-danger alert-dismissible">
+                            <div class="alert-text">{{ this.l("Pages.FeatureAds.IncorrectDetails") }}</div>
+                        </div>
+                    </ng-container>
+                    <div class="row">
+                        <div class="form-group col-lg-6 col-md-6 col-sm-12">
+                            <!--<mat-form-field>-->
+                            <label>{{ this.l('Common.Percentage') }}</label>
+                            <input class="form-control"
+                                   placeholder="{{ this.l('Common.Percentage') }}" matInput
+                                   type="text"
+                                   name="percentage"
+                                   (keypress)="checkNumber($event)"
+                                   formControlName="percentage"
+                                   autocomplete="off"
+                                   [ngClass]="{ 'is-invalid': featureAdsForm.controls['percentage'].invalid }"
+                                   [(ngModel)]="percentage.nameEn" />
+                            <!--</mat-form-field>-->
+                            <ng-container [ngTemplateOutlet]="formError"
+                                          [ngTemplateOutletContext]="{
+                                validation: 'minLength',
+                                message:this.l('Common.NameArMinLength'),
+                                control: featureAdsForm.controls['percentage']
+                                }"></ng-container>
+                            <ng-container [ngTemplateOutlet]="formError"
+                                          [ngTemplateOutletContext]="{
+                                validation: 'maxLength',
+                                message:this.l('Common.NameArMaxLength'),
+                                control: featureAdsForm.controls['percentage']
+                                }"></ng-container>
+                        </div>
+                        <!--<div class="form-group col-lg-6 col-md-6 col-sm-12">-->
+                            <!--<mat-form-field>-->
+                            <!--<label>{{ this.l('Common.EmailAddress') }}</label>
+                            <input class="form-control"
+                                   placeholder="{{ this.l('Common.EmailAddress') }}" matInput
+                                   type="email"
+                                   name="email"
+                                   formControlName="email"
+                                   (keypress)="checkEnglishCharNumSympol($event)"
+                                   autocomplete="off"
+                                   [ngClass]="{ 'is-invalid': featureAdsForm.controls['email'].invalid }"
+                                   [(ngModel)]="email.nameEn" />-->
+                            <!--</mat-form-field>-->
+                            <!--<ng-container [ngTemplateOutlet]="formError"
+                                          [ngTemplateOutletContext]="{
+                                validation: 'minLength',
+                                message:this.l('Common.NameArMinLength'),
+                                control: featureAdsForm.controls['email']
+                                }"></ng-container>
+                            <ng-container [ngTemplateOutlet]="formError"
+                                          [ngTemplateOutletContext]="{
+                                validation: 'maxLength',
+                                message:this.l('Common.NameArMaxLength'),
+                                control: featureAdsForm.controls['email']
+                                }"></ng-container>
+                        </div>-->
+                    </div>
+                    <!--<div class="row">
+                        <div class="form-group col-lg-6 col-md-6 col-sm-12">-->
+                            <!--<mat-form-field>-->
+                            <!--<label>{{ this.l('Common.EnglishAddress') }}</label>
+                            <input class="form-control"
+                                   placeholder="{{ this.l('Common.EnglishAddress') }}" matInput
+                                   type="text"
+                                   name="addressEn"
+                                   (keypress)="checkEnglishCharNumSympol($event)"
+                                   formControlName="addressEn"
+                                   autocomplete="off"
+                                   [ngClass]="{ 'is-invalid': featureAdsForm.controls['addressEn'].invalid }"
+                                   [(ngModel)]="address.nameEn" />-->
+                            <!--</mat-form-field>-->
+                            <!--<ng-container [ngTemplateOutlet]="formError"
+                                          [ngTemplateOutletContext]="{
+                                validation: 'minLength',
+                                message:this.l('Common.NameEnMinLength'),
+                                control: featureAdsForm.controls['addressEn']
+                                }"></ng-container>
+                            <ng-container [ngTemplateOutlet]="formError"
+                                          [ngTemplateOutletContext]="{
+                                validation: 'maxLength',
+                                message:this.l('Common.NameEnMaxLength'),
+                                control: featureAdsForm.controls['addressEn']
+                                }"></ng-container>
+                        </div>
+                        <div class="form-group col-lg-6 col-md-6 col-sm-12">-->
+                            <!--<mat-form-field>-->
+                            <!--<label>{{ this.l('Common.ArabicAddress') }}</label>
+                            <input class="form-control"
+                                   placeholder="{{ this.l('Common.ArabicAddress') }}" matInput
+                                   type="text"
+                                   name="addressAr"
+                                   (keypress)="checkArabicCharNumSympol($event)"
+                                   formControlName="addressAr"
+                                   autocomplete="off"
+                                   [ngClass]="{ 'is-invalid': featureAdsForm.controls['addressAr'].invalid }"
+                                   [(ngModel)]="address.nameAr" />-->
+                            <!--</mat-form-field>-->
+                            <!--<ng-container [ngTemplateOutlet]="formError"
+                                          [ngTemplateOutletContext]="{
+                                validation: 'minLength',
+                                message:this.l('Common.NameArMinLength'),
+                                control: featureAdsForm.controls['addressAr']
+                                }"></ng-container>
+                            <ng-container [ngTemplateOutlet]="formError"
+                                          [ngTemplateOutletContext]="{
+                                validation: 'maxLength',
+                                message:this.l('Common.NameArMaxLength'),
+                                control: contactForm.controls['addressAr']
+                                }"></ng-container>
+                        </div>
+                    </div>-->
+                    <!--<div class="form-group">
+                        <agm-map [latitude]="latitude" [longitude]="longitude" [scrollwheel]="false" [zoom]="15" style="width: 100%;height: 300px;margin-bottom: 30px;">
+                            <agm-marker [latitude]="latitude" [longitude]="longitude" [markerDraggable]="true"
+                                        (dragEnd)="markerDragEnd($event)"></agm-marker>
+                        </agm-map>
+                    </div>-->
+                    <div class="pb-lg-0 pb-5">
+                        <button mat-button
+                                type="submit"
+                                id="kt_featureAds_submit"
+                                class="btn btn-primary font-weight-bolder font-size-h6 px-8 py-2 "
+                                [disabled]="featureAdsForm.invalid" *ngIf="isGranted('Write.Permission.FeatureAds')" > 
+                            {{ this.l("Common.Save") }}
+                        </button>
+                        <ng-container *ngIf="isLoading$ | async">
+                            <span class="spinner spinner-primary ml-5"></span>
+                        </ng-container>
+                        <br />
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <ng-template #formError let-control="control" let-message="message" let-validation="validation">
+            <ng-container *ngIf="control.hasError(validation) && (control.dirty || control.touched)">
+                <div class="fv-plugins-message-container">
+                    <div class="fv-help-block">
+                        {{ message }}
+                    </div>
+                </div>
+            </ng-container>
+        </ng-template>
+
+    </div>
+</div>

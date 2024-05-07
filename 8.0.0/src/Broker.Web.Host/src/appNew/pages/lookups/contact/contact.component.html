@@ -1,0 +1,128 @@
+<div class="card card-custom example example-compact gutter-b">
+    <div class="card-header">
+        <div class="card-title">
+            <h3 class="card-label">{{ this.l("Pages.Contact.Title") }}</h3>
+        </div>
+        <div class="card-toolbar">
+        </div>
+    </div>
+    <div class="card-body">
+        <div class="col-xl-12">
+            <div class="col-xl-12">
+                <form class="form" [formGroup]="contactForm" novalidate="novalidate" id="kt_contact_form" (ngSubmit)="submit()">
+                    <ng-container *ngIf="hasError">
+                        <div class="mb-10 alert alert-custom alert-light-danger alert-dismissible">
+                            <div class="alert-text">{{ this.l("Pages.Contact.IncorrectDetails") }}</div>
+                        </div>
+                    </ng-container>
+                    <div class="row">
+                        <div class="form-group col-lg-6 col-md-6 col-sm-12">
+                            <!--<mat-form-field>-->
+                            <label>{{ this.l('Common.PhoneNumber') }}</label>
+                            <input class="form-control"
+                                   placeholder="{{ this.l('Common.PhoneNumber') }}" matInput
+                                   type="text"
+                                   name="phone"
+                                   (keypress)="checkNumber($event)"
+                                   formControlName="phone"
+                                   autocomplete="off"
+                                   [ngClass]="{ 'is-invalid': contactForm.controls['phone'].invalid }"
+                                   [(ngModel)]="phone.nameEn"
+                                   [formControl]="contactForm.controls['phone']"/>
+                            <!--</mat-form-field>-->
+                            <small [hidden]="!(contactForm.controls.phone?.dirty && contactForm.controls.phone?.invalid)" class="text-danger">
+                                {{this.l("Common.Error.InvalidPhoneNumber") }}
+                            </small>
+                            
+                        </div>
+                        <div class="form-group col-lg-6 col-md-6 col-sm-12">
+                            <!--<mat-form-field>-->
+                            <label>{{ this.l('Common.EmailAddress') }}</label>
+                            <input class="form-control"
+                                   placeholder="{{ this.l('Common.EmailAddress') }}" matInput
+                                   type="email"
+                                   name="email"
+                                   formControlName="email"
+                                   (keypress)="checkEnglishCharNumSympol($event)"
+                                   autocomplete="off"
+                                   [ngClass]="{ 'is-invalid': contactForm.controls['email'].invalid }"
+                                   [(ngModel)]="email.nameEn"
+                                   [formControl]="contactForm.controls['email']"/>
+                            <!--</mat-form-field>-->
+                            <small [hidden]="!(contactForm.controls.email?.dirty && contactForm.controls.email?.invalid)" class="text-danger">
+                                {{this.l("Common.Error.InvalidEmail") }}
+                            </small>
+                           
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-lg-6 col-md-6 col-sm-12">
+                            <!--<mat-form-field>-->
+                            <label>{{ this.l('Common.EnglishAddress') }}</label>
+                            <input class="form-control"
+                                   placeholder="{{ this.l('Common.EnglishAddress') }}" matInput
+                                   type="text"
+                                   name="addressEn"
+                                   (keypress)="checkEnglishCharNumSympol($event)"
+                                   formControlName="addressEn"
+                                   autocomplete="off"
+                                   [ngClass]="{ 'is-invalid': contactForm.controls['addressEn'].invalid }"
+                                   [(ngModel)]="address.nameEn" />
+                            <!--</mat-form-field>-->
+                            <small [hidden]="!(contactForm.controls.addressEn?.dirty && contactForm.controls.addressEn?.invalid)" class="text-danger">
+                                {{this.l("Common.Error.Invalid") }}
+                            </small>
+                        </div>
+                        <div class="form-group col-lg-6 col-md-6 col-sm-12">
+                            <!--<mat-form-field>-->
+                            <label>{{ this.l('Common.ArabicAddress') }}</label>
+                            <input class="form-control"
+                                   placeholder="{{ this.l('Common.ArabicAddress') }}" matInput
+                                   type="text"
+                                   name="addressAr"
+                                   (keypress)="checkArabicCharNumSympol($event)"
+                                   formControlName="addressAr"
+                                   autocomplete="off"
+                                   [ngClass]="{ 'is-invalid': contactForm.controls['addressAr'].invalid }"
+                                   [(ngModel)]="address.nameAr" />
+                            <!--</mat-form-field>-->
+                            <small [hidden]="!(contactForm.controls.addressAr?.dirty && contactForm.controls.addressAr?.invalid)" class="text-danger">
+                                {{this.l("Common.Error.Invalid") }}
+                            </small>
+                        </div>
+                    </div>
+                    <!--<div class="form-group">
+                        <agm-map [latitude]="latitude" [longitude]="longitude" [scrollwheel]="false" [zoom]="15" style="width: 100%;height: 300px;margin-bottom: 30px;">
+                            <agm-marker [latitude]="latitude" [longitude]="longitude" [markerDraggable]="true"
+                                        (dragEnd)="markerDragEnd($event)"></agm-marker>
+                        </agm-map>
+                    </div>-->
+                    <div class="pb-lg-0 pb-5">
+                        <button mat-button
+                                type="submit"
+                                id="kt_contact_submit"
+                                class="btn btn-primary font-weight-bolder font-size-h6 px-8 py-2 "
+                                [disabled]="contactForm.invalid" *ngIf="isGranted('Write.Permission.Contacts')">
+                            {{ this.l("Common.Save") }}
+                        </button>
+                        <ng-container *ngIf="isLoading$ | async">
+                            <span class="spinner spinner-primary ml-5"></span>
+                        </ng-container>
+                        <br />
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <ng-template #formError let-control="control" let-message="message" let-validation="validation">
+            <ng-container *ngIf="control.hasError(validation) && (control.dirty || control.touched)">
+                <div class="fv-plugins-message-container">
+                    <div class="fv-help-block">
+                        {{ message }}
+                    </div>
+                </div>
+            </ng-container>
+        </ng-template>
+
+    </div>
+</div>

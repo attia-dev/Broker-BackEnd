@@ -1,0 +1,685 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<localizationDictionary culture="en">
+	<texts>
+		<text name="HomePage" value="Home page" />
+		<text name="About" value="About" />
+		<text name="WelcomeMessage" value="Welcome to Broker!" />
+		<text name="FormIsNotValidMessage" value="Form is not valid. Please check and fix errors." />
+		<text name="TenantNameCanNotBeEmpty" value="Tenant name can not be empty" />
+		<text name="InvalidUserNameOrPassword" value="Invalid user name or password" />
+		<text name="ThereIsNoTenantDefinedWithName{0}" value="There is no tenant defined with name {0}" />
+		<text name="TenantIsNotActive" value="Tenant {0} is not active." />
+		<text name="UserIsNotActiveAndCanNotLogin" value="User {0} is not active and can not log in." />
+		<text name="UserEmailIsNotConfirmedAndCanNotLogin">Your email address is not confirmed. You can not login.</text>
+		<text name="UserLockedOutMessage">The user account has been locked out. Please try again later.</text>
+		<text name="PleaseEnterLoginInformation" value="Please enter login information" />
+		<text name="TenancyName" value="Tenancy name" />
+		<text name="UserNameOrEmail" value="User name or email" />
+		<text name="Password" value="Password" />
+    <text name="Common.RestPass" value="Reset Password" />
+    <text name="Pages.Consultant.ConfirmPassword" value="Confirm Password" />
+		<text name="ResetPassword" value="Reset Password" />
+		<text name="UpdatePassword" value="Update Password" />
+		<text name="RememberMe" value="Remember me" />
+		<text name="LogIn" value="Log in" />
+		<text name="LoginFailed" value="Login failed!" />
+		<text name="NameSurname" value="Name surname" />
+		<text name="UserName" value="User name" />
+		<text name="FirstName" value="First Name" />
+		<text name="LastName" value="Last Name" />
+		<text name="Name" value="Name" />
+		<text name="Surname" value="Surname" />
+		<text name="EmailAddress" value="Email address" />
+		<text name="Tenants" value="Tenants" />
+		<text name="SavedSuccessfully" value="Saved successfully" />
+		<text name="CreateNewTenant" value="Create new tenant" />
+		<text name="AdminEmailAddress" value="Admin email address" />
+		<text name="AdminPassword" value="Admin password" />
+		<text name="Save" value="Save" />
+		<text name="Cancel" value="Cancel" />
+		<text name="TenantName_Regex_Description" value="Tenant name must be at least 2 chars, starts with a letter and continue with letter, number, dash or underscore." />
+		<text name="DefaultPasswordIs" value="Default password is {0}" />
+		<text name="CanBeEmptyToLoginAsHost" value="Can be empty to login as host." />
+		<text name="Register" value="Register" />
+		<text name="OrLoginWith" value="Or login with" />
+		<text name="WaitingForActivationMessage" value="Your account is waiting to be activated by system admin." />
+		<text name="TenantSelection" value="Tenant Selection" />
+		<text name="TenantSelection_Detail" value="Please select one of the following tenants." />
+		<text name="Logout" value="Logout" />
+		<text name="RegisterFormUserNameInvalidMessage">Please don't enter an email address for username.</text>
+		<text name="DatabaseConnectionString" value="Database connection string" />
+		<text name="Users" value="Users" />
+		<text name="IsActive" value="Is active" />
+		<text name="FullName" value="Full name" />
+		<text name="CreateNewUser" value="Create new user" />
+		<text name="Yes" value="Yes" />
+		<text name="No" value="No" />
+		<text name="Optional" value="Optional" />
+		<text name="LeaveEmptyToSwitchToHost">Leave empty to switch to the host</text>
+		<text name="CurrentTenant">Current tenant</text>
+		<text name="NotSelected">Not selected</text>
+		<text name="Change">Change</text>
+		<text name="ChangeTenant">Change tenant</text>
+		<text name="MultiLevelMenu">Multi Level Menu</text>
+		<text name="Back">Back</text>
+		<text name="SuccessfullyRegistered">Successfully registered</text>
+		<text name="WaitingForEmailActivation">Your email address should be activated</text>
+		<text name="Roles">Roles</text>
+		<text name="DisplayName">Display Name</text>
+		<text name="Edit">Edit</text>
+		<text name="Delete">Delete</text>
+		<text name="CreateNewRole">Create new role</text>
+		<text name="RoleName">Role Name</text>
+		<text name="Actions">Actions</text>
+		<text name="CouldNotCompleteLoginOperation">Could not complete login operation. Please try again later.</text>
+		<text name="CouldNotValidateExternalUser">Could not validate external user</text>
+		<text name="EditRole">Edit role</text>
+		<text name="EditTenant">Edit tenant</text>
+		<text name="EditUser">Edit user</text>
+		<text name="TenantIdIsNotActive{0}">TenantId {0} is not active</text>
+		<text name="UnknownTenantId{0}">Unknown tenantId {0}</text>
+		<text name="ThisFieldIsRequired">This field is required</text>
+		<text name="PleaseWait">Please wait...</text>
+		<text name="Administration">Administration</text>
+		<text name="ClearAll">Clear all</text>
+		<text name="ClearOthers">Clear others</text>
+		<text name="LabelOptions">Label options</text>
+		<text name="Permissions">Permissions</text>
+		<text name="RoleDescription">Role description</text>
+		<text name="Refresh">Refresh</text>
+		<text name="Create">Create</text>
+		<text name="UserDetails">User details</text>
+		<text name="UserRoles">User roles</text>
+		<text name="ConfirmPassword">Confirm password</text>
+		<text name="Version">Version</text>
+		<text name="On">On</text>
+		<text name="Off">Off</text>
+		<text name="AreYouSureWantToDelete">Are you sure want to delete {0}?</text>
+		<text name="SuccessfullyDeleted">Successfully deleted</text>
+		<text name="StartTyping">Start Typing</text>
+		<text name="Skins">Skins</text>
+		<text name="Settings">Settings</text>
+		<text name="Filter">Filter</text>
+		<text name="CurrentPassword">Current Password</text>
+		<text name="NewPassword">New Password</text>
+		<text name="ConfirmNewPassword">Confirm New Password</text>
+		<text name="PasswordsDoNotMatch">Passwords do not match</text>
+		<text name="PasswordsMustBeAtLeast8CharactersContainLowercaseUppercaseNumber">Passwords must be at least 8 characters, contain a lowercase, uppercase, and number</text>
+		<text name="UserDeleteWarningMessage">User {0} will be deleted.</text>
+		<text name="RoleDeleteWarningMessage">Role {0} will be deleted and unassigned from all assigned users.</text>
+		<text name="TenantDeleteWarningMessage">Tenant {0} will be deleted.</text>
+		<text name="SearchWithThreeDot">Search...</text>
+		<text name="PleaseEnterAtLeastNCharacter">Please enter at least {0} characters</text>
+		<text name="PleaseEnterNoMoreThanNCharacter">Please enter no more than {0} characters</text>
+		<text name="InvalidEmailAddress">Invalid email address</text>
+		<text name="InvalidPattern">Invalid</text>
+		<text name="PairsDoNotMatch">Do not match</text>
+		<text name="All">All</text>
+		<text name="TotalRecordsCount">Total: {0}</text>
+		<text name="Search">Search</text>
+		<text name="Clear">Clear</text>
+		<text name="ResetPasswordStepOneInfo">1. Enter your administrator password</text>
+		<text name="ResetPasswordStepTwoInfo">2. Copy this random password so you can send it to the user</text>
+		<text name="UsersActivation">Users activation</text>
+		<text name="Common.PoweredBy" value="Powered By" />
+		<text name="Common.NahrDev" value="Nahr Dev" />
+		<text name="Common.Copyright" value="Copyright" />
+		<text name="Common.Create">Create</text>
+		<text name="Common.Filter">Filter</text>
+		<text name="Common.Save">Save</text>
+		<text name="Common.Cash">Cash</text>
+		<text name="Common.Credit">Credit</text>
+		<text name="Common.Cancel">Cancel</text>
+		<text name="Common.UploadFile">Upload File</text>
+		<text name="Common.UploadPhoto">Upload Photo</text>
+		<text name="Common.UploadPhoto.Description">Allowed JPG, GIF or PNG. Max size of 2MB</text>
+		<text name="Common.Password">Password</text>
+		<text name="Common.PasswordRequired">Password is Rrquired</text>
+		<text name="Common.PasswordMinLength">Password hould have at least 8 symbols</text>
+		<text name="Common.PasswordMaxLength">Password should have maximum 360 symbol</text>
+		<text name="Common.Name">Name</text>
+		<text name="Common.Code">Code</text>
+		<text name="Common.Accept">Accept</text>
+		<text name="Common.Reject">Reject</text>
+    <text name="Common.Pending">Pending</text>
+    <text name="Common.Accepted">Accepted</text>
+    <text name="Common.Rejected">Rejected</text>
+    <text name="Common.All">All</text>
+    <text name="Common.Required">this field is required</text>
+
+		<text name="Common.IsPublish">Is Publish</text>
+		<text name="Common.Period">Period</text>
+		<text name="Common.NameRequired" value="Name is required" />
+		<text name="Common.DurationRequired" value="Duration is Required" />
+
+		<text name="Common.NameEn">English Name</text>
+		<text name="Common.NameEnRequired">English Name is Rrquired</text>
+		<text name="Common.NameEnMinLength">English Name should have at least 3 symbols</text>
+		<text name="Common.NameEnMaxLength">English Name should have maximum 360 symbols</text>
+		<text name="Common.NameAr">Arabic Name</text>
+		<text name="Common.NameArRequired">Arabic Name is Rrquired</text>
+		<text name="Common.NameArMinLength">Arabic Name should have at least 3 symbols</text>
+		<text name="Common.NameArMaxLength">Arabic Name should have maximum 360 symbols</text>
+		<text name="Common.EmailAddress">Email Address</text>
+    <text name="Common.EmailSubject">Email Subject</text>
+		<text name="Common.EmailAddressRequired">Email Address is Required</text>
+		<text name="Common.EmailAddressMinLength">Email should have at least 3 symbols</text>
+		<text name="Common.EmailAddressMaxLength">Email should have maximum 360 symbols</text>
+		<text name="Common.PhoneNumber">Phone Number</text>
+		<text name="Common.PhoneNumberRequired">Phone Number is required</text>
+		<text name="Common.PhoneNumberMinLength">Phone Number should have at least 3 numbers</text>
+		<text name="Common.PhoneNumberMaxLength">Phone Number should have maximum 360 symbols</text>
+		<text name="Common.BirthDate">Birth Date</text>
+		<text name="Common.About">About</text>
+		<text name="Common.Gender">Gender</text>
+		<text name="Common.Title">Title</text>
+		<text name="Common.MobileNumber">Mobile Number</text>
+		<text name="Common.Address">Address</text>
+		<text name="Common.BuildingType">Building Type</text>
+		<text name="Common.Compound">Compound</text>
+		<text name="Common.Area">Area</text>
+		<text name="Common.BuildingArea">Building Area</text>
+		<text name="Common.LE" value="LE" />
+		<text name="Common.Edit" value="Edit" />
+		<text name="Common.Delete" value="Delete" />
+		<text name="Common.Restore" value="Restore" />
+		<text name="Common.Error.AjaxError" value="Could not complete request." />
+		<text name="Common.Error.AjaxErrorDetails" value="Please try again, or call system administrator" />
+		<text name="Common.Error.InvalidForm" value="You have some form errors" />
+		<text name="Common.Error.Required" value="Field is required" />
+		<text name="Common.Error.InvalidEmail" value="Invalid email address" />
+		<text name="Common.Error.InvalidPhoneNumber" value="Invalid Phone Number" />
+		<text name="Common.Error.Invalid" value="Invalid field" />
+		<text name="Common.Error.InvalidUserName" value="Username must contains letters and numbers and dot only" />
+		<text name="Common.Error.InvalidTenancyName" value="Tenancy name must contains letters and numbers and dot only" />
+		<text name="Common.Error.InvalidLookup" value="Find and select item from the list" />
+		<text name="Common.Error.MaxLength" value="Max Length is [{0}] character or number" />
+		<text name="Common.Error.DecimalOnly" value="Only decimal format is allowed" />
+		<text name="Common.Error.PasswordLength" value="Password must be at least 6 characters" />
+		<text name="Common.Error.PasswordsMatching" value="Passwords don't match " />
+		<text name="Common.Standard" value="Standard" />
+		<text name="Common.Select" value="Select" />
+
+		<text name="Common.Subscribe" value="Subscribe" />
+    <text name="Common.From" value="From" />
+    <text name="Common.To" value="To" />
+    <text name="Common.Enable" value="Enable" />
+    <text name="Common.Disable" value="Disable" />
+    <text name="Common.Renew" value="Renew" />
+		<text name="Pages.Branches.Message" value="This Admin Have No County" />
+		<text name="Common.Error.OnlyNumber" value="Enter Only 6 Numbers" />
+		<text name="Common.EmailPattern.Invalid" value="Invalid Email" />
+		<text name="Common.PhonePattern.Invalid" value="Invalid PhonePattern" />
+		<text name="Common.JoinAsAProvider" value="Join As A Provider" />
+
+		<!--DataTable-->
+		<text name="Common.DataTable.SelectedCount" value="_TOTAL_ records selected" />
+		<text name="Common.DataTable.AjaxRequestGeneralError" value="Could not complete request. Please check your internet connection" />
+		<text name="Common.DataTable.LengthMenu" value="View _MENU_" />
+		<text name="Common.DataTable.Info" value="Found total _TOTAL_" />
+		<text name="Common.DataTable.InfoFiltered" value="(filtered from total _MAX_)" />
+		<text name="Common.DataTable.InfoEmpty" value="No records found to view" />
+		<text name="Common.DataTable.EmptyTable" value="No data available in database" />
+		<text name="Common.DataTable.ZeroRecords" value="No records found matching filter fields" />
+		<text name="Common.DataTable.Paginate.Previous" value="Prev" />
+		<text name="Common.DataTable.Paginate.Next" value="Next" />
+		<text name="Common.DataTable.Paginate.Last" value="Last" />
+		<text name="Common.DataTable.Paginate.First" value="First" />
+		<text name="Common.DataTable.Paginate.Page" value="Page" />
+		<text name="Common.DataTable.Paginate.PageOf" value="of" />
+		<text name="Common.DataTable.Reset" value="Reset" />
+		<text name="Common.DataTable.Refresh">Refresh</text>
+		<text name="Common.DataTable.Columns" value="Displayed Columns" />
+		<text name="Common.DataTable.NoRecordsSelected" value="No record selected" />
+		<!--common messages-->
+		<text name="Common.Message.Confirm.Approve" value="Are you sure to Approve selected record(s)?" />
+		<text name="Common.Message.Confirm.Decline" value="Are you sure to Decline selected record(s)?" />
+
+    <text name="Common.Message.Confirm.Enable" value="Are you sure to Enable selected record(s)?" />
+    <text name="Common.Message.Confirm.Disable" value="Are you sure to Disable selected record(s)?" />
+    <text name="Common.Message.ThereIsNoPhotos" value="There Is No Photos" />
+    <text name="Common.Message.ThereIsNoLayouts" value="There Is No Layouts" />
+		<text name="Common.Message.ActionSuccess" value="Request completed" />
+		<text name="Common.Message.DataIsNotValid" value="Code Is Not Valid" />
+		<text name="Common.Message.FixedAmountRequired" value="Fixed Amount Required" />
+		<text name="Common.Message.PercentageAmountRequired" value="Percentage must between 1 and 100" />
+		<text name="Common.Message.SuccessfulOperation" value="Successful Operation" />
+		<text name="Common.Message.SettingsChanged" value="System settings changed, applcation will reload." />
+		<text name="Common.Message.PermissionsChanged" value="System permissions changed, applcation will reload." />
+		<text name="Common.Message.Confirm.Delete" value="Are you sure to delete selected record(s)?" />
+		<text name="Common.Message.Confirm.Activate" value="Are you sure to Activate selected record(s)?" />
+		<text name="Common.Message.Confirm.Deactivate" value="Are you sure to Deactivate selected record(s)?" />
+		<text name="Common.Message.Confirm.HardDelete" value="Are you sure to delete selected record(s) from DataBase?" />
+		<text name="Common.Message.Confirm.Restore" value="Are you sure to restore selected record(s)?" />
+		<text name="Common.Message.Delete" value="Record deleted" />
+		<text name="Common.Message.Save" value="Record saved" />
+    <text name="Common.Message.ObjectNotFound" value="There is no object with this id" />
+    <text name="Common.Message.ObjectNotPuplished" value="Object Not Puplished" />
+    <text name="Common.Message.ObjectNotInDuration" value="Object Not In Duration" />
+    <text name="Common.Message.StaticData" value="Static items will be ignored from deletion" />
+		<text name="Common.Message.PassowrdChangedSuccessfully" value="Passowrd changed successfully" />
+		<text name="Common.Message.ProfileDateUpdatedSuccessfully" value="Profile date updated successfully" />
+		<!--satus of gender -->
+		<text name="Common.Gender.Male">Male</text>
+		<text name="Common.Gender.Female">Female</text>
+		<text name="Common.Gender.Unspecified" value="Unspecified" />
+		<!--Database Common Columns-->
+		<text name="Common.DisplayName">Display Name</text>
+		<text name="Common.ArabicName" >Arabic Name</text>
+		<text name="Common.EnglishName" >English Name</text>
+		<text name="Common.EnglishAddress">English Address</text>
+		<text name="Common.ArabicAddress">Arabic Address</text>
+		<text name="Common.Description" value="Description" />
+		<text name="Common.ArabicDescription">Arabic Description</text>
+		<text name="Common.EnglishDescription" >English Description</text>
+		<text name="Common.EnglishAbout">English About</text>
+		<text name="Common.ArabicAbout">Arabic About</text>
+		<text name="Common.CreatedBy">Created By</text>
+		<text name="Common.CreatedOn">Created On</text>
+		<text name="Common.ModifiedBy">Modified By</text>
+		<text name="Common.ModifiedOn">Modified On</text>
+		<text name="Common.DeletedBy" >Deleted By</text>
+		<text name="Common.DeletedOn">Deleted On</text>
+		<text name="Common.Deleted">Deleted</text>
+		<text name="Common.NotDeleted">Not Deleted</text>
+		<text name="Common.Status" >Status</text>
+		<text name="Common.Actions">Actions</text>
+		<text name="Common.Options">Options</text>
+		<text name="Common.ShowDeleted">Show Deleted</text>
+		<text name="Common.Search" value="Search" />
+		<text name="Common.CancelSearch">Cancel Search</text>
+		<text name="Common.Register">Register</text>
+		<text name="Common.City">City</text>
+		<text name="Common.Region">Region</text>
+		<text name="Common.Parent">Parent</text>
+		<text name="Common.Price">Price</text>
+		<text name="Common.Points">Points</text>
+		<text name="Common.AccountType">Account Type</text>
+
+		<text name="Common.Duration">Duration</text>
+		<text name="Common.AgendaRatio">Agenda Ratio</text>
+		<text name="Common.DoctorRatio">Doctor Ratio</text>
+		<text name="Common.TeacherRatio">Teacher Ratio</text>
+		<text name="Common.LawyerRatio">Lawyer Ratio</text>
+
+		<text name="Common.FixedAmount">Fixed Amount</text>
+		<text name="Common.PercentageAmount">Percentage Per Booking</text>
+		<text name="Common.DiscountType">Discount Type</text>
+		<text name="Common.Discount">Discount</text>
+		<text name="Common.FeesType">Fees Type</text>
+		<text name="Common.Print" value="Print" />
+		<text name="Common.New" value="Add New" />
+		<text name="Common.DisplayOrder" value="Display Order" />
+		<text name="Common.Discard" value="Discard" />
+		<text name="Common.Published" value="Active" />
+		<text name="Common.IsActive" value="Is active" />
+		<text name="Common.Systemkeyword" value="System keyword" />
+		<text name="Common.Ratio" value="Ratio" />
+		<text name="Common.System" value="System" />
+		<text name="Common.Any" value="Any" />
+    <text name="Common.Newer" value="Newer" />
+		<text name="Common.EmailValid" value="Please provide a valid email address" />
+		<text name="Common.Activate" value="Activate" />
+		<text name="Common.Deactivate" value="Deactivate" />
+		<text name="Common.ShortDescription" value="Short Description" />
+		<text name="Common.FullDescription" value="Full Description" />
+		<text name="Common.Amount" value="Amount" />
+		<text name="Common.Percentage" value="Percentage" />
+		<text name="Common.BasicInfo" value="Basic Info" />
+		<text name="Common.English" value="English" />
+		<text name="Common.POSABLE" value="POSABLE" />
+		<text name="Common.panel" value="panel" />
+		<text name="Common.SelectAll" value="Select All" />
+		<text name="Common.UnSelectAll" value="UnSelect All" />
+		<text name="Common.Basic" value="Basic" />
+		<text name="Common.Advanced" value="Advanced" />
+		<text name="Common.Single" value="Single" />
+		<text name="Common.Multiple" value="Multiple" />
+		<text name="Common.ReturnList" value="Return To List" />
+		<text name="Common.SearchDashboard" value="Search..." />
+		<text name="Common.Searchs" value="Search By Name" />
+		<text name="Common.AmountRequired" value="Amount is required" />
+		<text name="Common.PercentageRequired" value="Percentage is required" />
+		<text name="Common.Search.Input" value="Search here" />
+		<text name="Common.SearchNum.Input" value="Search By Serial Number" />
+		<text name="Common.DepartmentTypes" value="Department" />
+		<text name="Common.Type" value="Type" />
+		<text name="Common.Date" value="Date" />
+		<text name="Common.Avatar" value="Image" />
+		<text name="Common.DescriptionAr" value="Arabic Description" />
+		<text name="Common.DescriptionEn" value="english Description" />
+		<text name="Common.Sponsored" value="Sponsored" />
+		<text name="Common.NotSponsored" value="Not Sponsored" />
+		<text name="Common.Deactivated" value="Deactivated" />
+		<text name="Common.Active" value="Active" />
+		<text name="Common.Message.Confirm.approve" value="You Want To Switch To Sponsored" />
+		<text name="Common.Message.Confirm.decline" value="You Want To Switch To Company" />
+		<text name="Common.Message.Confirm.active" value="Active" />
+		<text name="Common.Message.Confirm.deactivate" value="Deactive" />
+		<text name="Common.Apartment" value="Apartment" />
+		<text name="Common.Villa" value="Villa" />
+		<text name="Common.ChaletForSummer" value="Chalet For Summer" />
+		<text name="Common.Building" value="Building" />
+		<text name="Common.AdminOffice" value="Admin Office" />
+		<text name="Common.Shop" value="Shop" />
+		<text name="Common.Land" value="Land" />
+    <text name="Common.Chalet" value="Chalet" />
+		<!--Admin-->
+
+		<text name="Pages.Users.UsersManagement" value="Admin" />
+		<text name="Pages.Users.ManageUser" value="Manage User" />
+    
+    <text name="Pages.Users.Error.AlreadyExistInDeleted" value="user already exist in deleted" />
+    <text name="Pages.Users.Error.AlreadyExist" value="user elready exist" />
+    
+    <text name="Pages.Users.Error.PhoneNumberAlreadyExist" value="Phone Number Already Exist" />
+    
+    <text name="Permissions.Common.Read" value="Read Permissions" />
+		<text name="Permissions.Common.Write" value="Write Permissions" />
+		<text name="Permissions.Common.Delete" value="Delete Permissions" />
+		<text name="Permission.Lookups" value="Lookups" />
+		<text name="Permission.Countries" value="Countries" />
+		<text name="Permission.Cities" value="Cities" />
+		<text name="Permission.Dashboards" value="Dashboards" />
+		<text name="Permission.Admins" value="Admins" />
+		<text name="Permission.UserPermissions" value="User Permissions" />
+		<text name="Permission.Governorates" value="Governorates" />
+		<text name="Permission.Packages" value="Packages" />
+		<text name="Permission.Facilities" value="Facilities" />
+		<text name="Permission.Documents" value="Documents" />
+		<text name="Permission.Decorations" value="Decorations" />
+		<text name="Permission.Durations" value="Durations" />
+		<text name="Permission.DiscountCodes" value="DiscountCodes" />
+		<text name="Permission.Properties" value="Properties" />
+		<text name="Permission.FeatureAds" value="FeatureAds" />
+		<text name="Permission.Points" value="Points" />
+    <text name="Permission.ContactUs" value="Contact Us" />
+		<text name="Permission.Users" value="Users" />
+		<text name="Permission.Brokers" value="Brokers" />
+		<text name="Permission.Owners" value="Owners" />
+		<text name="Permission.Seekers" value="Seekers" />
+		<text name="Permission.Companies" value="Companies" />
+		<text name="Permission.Advertisements" value="Advertisements" />
+		<text name="Permission.ManagePages" value="Manage Pages" />
+		<text name="Permission.Abouts" value="Abouts" />
+		<text name="Permission.Contacts" value="Contacts" />
+
+		<!--lookups-->
+
+		<text name="Common.SecondMobile" value="Second Mobile" />
+		<text name="Common.False" value="False" />
+		<text name="Common.True" value="True" />
+		<text name="Common.Facebook" value="Facebook" />
+		<text name="Common.Instagram" value="Instagram" />
+		<text name="Common.SnapChat" value="SnapChat" />
+		<text name="Common.Tiktok" value="Tiktok" />
+		<text name="Common.Website" value="Website" />
+		<text name="Common.IsSponser" value="IsSponser" />
+
+		<!--lookups-->
+
+		<text name="Pages.Lookups.Title" value="Lookups" />
+		<text name="Pages.ManagePages.Title" value="ManagePages" />
+		<text name="Pages.Dashboard.Title" value="Dashboard" />
+
+		<!--Governorates-->
+		<text name="Pages.Governorate.ManageGovernorate" value="Manage Governorate" />
+		<text name="Common.Governorate" value="Governorate" />
+		<!--Countries-->
+		<text name="Pages.Countries.ManageCountry" value="Manage Country" />
+		<text name="Common.Country" value="Country" />
+		<!--Cities-->
+		<text name="Pages.Cities.ManageCity" value="Manage City" />
+		<!--Definition-->
+		<text name="Pages.Facilities.ManageFacility" value="Manage Facility" />
+		<text name="Common.Facility" value="Facility" />
+		<text name="Pages.Documents.ManageDocument" value="Manage Document" />
+		<text name="Pages.Decorations.ManageDecoration" value="Manage Decoration" />
+		<text name="Common.Document" value="Document" />
+
+		<text name="Pages.About.ShortArabicDescription" value="Short Arabic Description" />
+		<text name="Pages.About.ShortEnglishDescription" value="Short English Description" />
+
+		<!--BrokerPersons-->
+		<text name="Pages.BrokerPersons.Title" value="Brokers" />
+
+		<!--Owners-->
+		<text name="Pages.Owners.Title" value="Owners" />
+		<text name="Pages.Lookups.Countries.Title" value="Countries" />
+    <text name="Pages.Lookups.ContactUs.Title" value="ContactUs" />
+		<text name="Pages.Lookups.Governorates.Title" value="Governorates" />
+
+		<text name="Pages.Lookups.Cities.Title" value="Cities" />
+
+		<text name="Pages.Lookups.Facilities.Title" value="Facilities" />
+		<text name="Pages.Lookups.Documents.Title" value="Documents" />
+		<text name="Pages.Lookups.Decorations.Title" value="Decorations" />
+		<text name="Pages.Lookups.About.Title" value="About" />
+		<text name="Pages.Lookups.Contact.Title" value="Contact" />
+		<text name="Pages.Lookups.FeatureAds.Title" value="FeatureAds" />
+		<text name="Pages.Lookups.Points.Title" value="Points" />
+
+		<!--Package-->
+		<text name="Pages.Packages.ManagePackage" value="Manage Package" />
+		<text name="Pages.Lookups.Packages.Title" value="Packages" />
+
+		<!--Seekers-->
+		<text name="Pages.Seekers.Title" value="Seekers" />
+		<!--Companies-->
+		<text name="Pages.Companies.Title" value="Companies" />
+		<text name="Pages.Sponsors.Title" value="Sponsors" />
+		<!--Users-->
+		<text name="Pages.Users.Title" value="Users" />
+		<!--ManagesPages-->
+		<text name="Common.Money" value="Money" />
+
+		<text name="Pages.Contact.Title" value="Contact" />
+		<text name="Pages.Points.Title" value="Points" />
+		<text name="Pages.FeatureAds.Title" value="FeatureAds" />
+		<text name="Pages.About.Title" value="About" />
+
+		<!-- Durations -->
+		<text name="Pages.Lookups.Durations.Title" value="Durations" />
+		<text name="Pages.Durations.ManageDuration" value="Manage Duration" />
+
+		<!-- DiscountCodes -->
+		<text name="Pages.Lookups.DiscountCodes.Title" value="Discount Codes" />
+		<text name="Pages.DiscountCodes.ManageDiscountCode" value="Manage Discount Code" />
+
+		<!-- Properties -->
+		<text name="Pages.Lookups.Properties.Title" value="Properties" />
+		<text name="Pages.Properties.ManageProperty" value="Manage Property" />
+
+    <!-- ContactUs -->
+    <text name="Pages.ContactUs.ViewContactUs" value="View ContactUs" />
+
+   
+
+
+    <!--Wallet-->
+		<text name="Pages.TransactionType.Incom" value="Incom" />
+		<text name="Pages.TransactionType.OutCome" value="OutCome" />
+		<text name="Common.Wallet" value="Wallet" />
+		<text name="Common.View">View</text>
+		<text name="Common.TransactionTime">Transaction Time</text>
+		<text name="Common.ViewWallet">View Wallet</text>
+
+		<!--Advertisements-->
+    
+		<text name="Pages.Advertisements.Title" value="Advertisements" />
+    <text name="Common.Id" value="ID" />
+    <text name="Common.AdvertisementInfo" value="Advertisement Details" />
+    <text name="Pages.Advertisements.ManageAdvertisement" value="Manage Advertisement" />
+    <text name="Common.BuildingNumber" value="Building Number" />
+    <text name="Common.FloorsNumber" value="Floors Number" />
+    <text name="Common.StreetWidth" value="Street Width" />
+    <text name="Common.Width" value="Width" />
+    <text name="Common.RejectReason" value="Reject Reason" />
+    <text name="Common.Length" value="Length" />
+    <text name="Common.BuildingDate" value="Building Date" />
+    <text name="Common.Rooms" value="Rooms" />
+    <text name="Common.Reception" value="Reception" />
+    <text name="Common.Balcony" value="Balcony" />
+
+    
+    <text name="Common.Kitchen" value="Kitchen" />
+    <text name="Common.Toilet" value="Toilet" />
+    <text name="Common.NumUnits" value="Units Number" />
+    <text name="Common.NumPartitions" value="Partitions Number" />
+    <text name="Common.OfficesNum" value="Offices Number" />
+    <text name="Common.OfficesFloors" value="Offices Floors" />
+    <text name="Common.Seeker" value="Seeker" />
+    <text name="Common.Owner" value="Owner" />
+    <text name="Common.Company" value="Company" />
+    <text name="Common.Factory" value="Factory" />
+    <text name="Common.BrokerPerson" value="BrokerPerson" />
+    <text name="Common.Broker" value="Broker" />
+    <text name="Common.IsApprove" value="IsApprove?" />
+    <text name="Common.isApproved" value=" is approved" />
+    <text name="Common.isDeclined" value=" is declined" />
+    <text name="Common.FeaturedAd" value="FeaturedAd" />
+    <text name="Common.ApprovalStatus" value="Approval Status" />
+
+    <text name="Common.AdvertiseMakerName" value="AdvertiseMaker Name" />
+    <text name="Common.IsWhatsApped" value="IsWhatsApped?" />
+    <text name="Common.SecondMobileNumber" value="Second Mobile Number" />
+    <text name="Common.ContactRegisterInTheAccount" value="Contact RegisteredIn The Account?" />
+    <text name="Common.Furnished" value="Furnished" />
+    <text name="Common.Elevator" value="Elevator" />
+    <text name="Common.Parking" value="Parking" />
+    <text name="Common.ParkingSpace" value="ParkingSpace" />
+    <text name="Common.Garden" value="Garden" />
+    <text name="Common.GardenArea" value="Garden Area" />
+    <text name="Common.Pool" value="Pool" />
+    <text name="Common.ShopsNumber" value="Shops Number" />
+    <text name="Common.Decoration" value="Decoration" />
+    <text name="Common.AirConditioner" value="Air Conditioner" />
+
+    <text name="Common.DiningRoom" value="Dining Room" />
+    <text name="Common.Dinning" value="Dinning" />
+    <text name="Common.ChaletType" value="Chalet Type" />
+    <text name="Common.AgreementStatus" value="Agreement Status" />
+    <text name="Common.BuildingStatus" value="Building Status" />
+    <text name="Common.LandingStatus" value="Landing Status" />
+    <text name="Common.UsingFor" value="Using For" />
+    <text name="Common.PaymentFacility" value="Payment Facility" />
+    <text name="Common.AdvertiseMakerType" value="Advertise Maker Type" />
+    <text name="Common.ProximityToTheSea" value="Proximity To The Sea" />
+
+    <text name="Common.OfficiesType" value="Officies Type" />
+    <text name="Common.RentType" value="Rent Type" />
+    <text name="Common.Facilities" value="Facilities" />
+    <text name="Common.Photos" value="Photos" />
+    <text name="Common.Layouts" value="Layouts" />
+    <text name="Common.Sell" value="Sell" />
+    <text name="Common.Rent" value="Rent" />
+    <text name="Common.For" value="For" />
+    <text name="Common.In" value="in" />
+    <text name="Common.Mr" value="Mr : " />
+    <text name="Common.Mrs" value="Mrs : " />
+    
+    <text name="Common.Empty" value="Empty" />
+    <text name="Common.Status.New" value="New" />
+    <text name="Common.Used" value="Used" />
+    <text name="Common.Renewed" value="Renewed" />
+    <text name="Common.Registered" value="Registered" /> 
+		<text name="Common.Unregistered" value="Unregistered" />
+    <text name="Common.Registerable" value="Registerable" />
+    <text name="Common.Unregisterable" value="Unregisterable" />	
+		
+    <text name="Common.Without" value="Without" /> 
+	<text name="Common.SemiFinished" value="SemiFinished" />
+    <text name="Common.Full" value="Full" />
+    <text name="Common.HighQuality" value="HighQuality" />
+    <text name="Common.TheBroker" value="The Broker" />
+    <text name="Common.TheOwner" value="The Owner" />
+
+    <text name="Common.Buildings" value="Buildings" />
+    <text name="Common.Industrial" value="Industrial" />
+    <text name="Common.Agriculture" value="Agriculture" />
+    <text name="Common.Investment" value="Investment" />
+    <text name="Common.Residential" value="Residential" />
+    <text name="Common.Commercial" value="Commercial" />
+    <text name="Common.Allowed" value="Allowed" />
+    <text name="Common.NotAllowed" value="NotAllowed" />
+    <text name="Common.M100" value="100M" />
+    <text name="Common.M500" value="500M" />
+    <text name="Common.M500To1KM" value="500M To 1KM" />
+    <text name="Common.km1To5KM" value="1km To 5KM" />
+		<text name="Common.Month" value="Month" />
+    <text name="Common.Attachment" value="Attachment" />
+    <text name="Common.Street" value="Street" />
+    <text name="Common.ChaletRentType" value="Chalet Rent Type" />
+    <text name="Common.ChaletRentValue" value="Chalet Rent Value" />
+    <text name="Common.NumOfMonths" value="Number Of Months" />
+    <text name="Common.MinTimeToBookType" value="Minimum Time To Book" />
+
+    <text name="Common.Day" value="Daily" />
+    <text name="Common.Week" value="Weekly" />
+
+    <text name="Common.ChaletRentTypeDay" value="Day" />
+    <text name="Common.ChaletRentTypeWeek" value="Week" />
+    
+    <text name="Common.Day1" value="1 day" />
+    <text name="Common.Days2" value="2 days" />
+    <text name="Common.Days3" value="3 days" />
+    <text name="Common.Week1" value="1 week" />
+    <text name="Common.Days10" value="10 days" />
+
+    <text name="Common.DownloadFile" value="Download File" />
+    <text name="Common.RatingValue" value="Rating Value" />
+    <text name="Pages.Ratings.Title" value="Ratings" />
+    <text name="Pages.MinTimeToBookForChalets.Manage" value="Manage Minimum Time To Book For Chalet" />
+    <text name="Pages.Lookups.MinTimeToBookForChalets.Title" value="Minimum Time To Book For Chalets" />
+
+    <text name="Pages.Requests.Title" value="Update Requests" />
+    <text name="Common.Property" value="Property" />
+    
+    <!-- SocailContact -->
+    <text name="Pages.Lookups.SocialContacts.Title" value="SocialMedia Contacts" />
+    <text name="Common.SocialName" value="SocialMedia Name" />
+    <text name="Common.SocialValue" value="Link" />
+    <text name="Pages.SocialContact.ViewSocialContact" value="View Social Contact" />
+    <!--DropDown-->
+    <text name="Common.NoDataAvailable" value="No Data Available" /> 
+    <!--Discount-->
+    <text name="Common.DiscountCodeExpired" value="Discount Code Expired" />
+    <text name="Common.InvalidDiscountCode" value="Invalid Discount Code" />
+
+    <!--Projects-->
+    <text name="Pages.Projects.Title" value="Projects" />
+    <text name="Common.ProjectInfo" value="Project Details" />
+    <text name="Common.Advertisements" value="Advertisements :" />
+    <text name="Common.Advertisement" value="Your Advertisement " />
+    
+	<!--RentType-->
+    <text name="Common.Monthly" value="Monthly" />
+    <text name="Common.MidTerm" value="MidTerm" />
+    <text name="Common.Annual" value="Annual" />
+	
+	<!--Meters-->
+    <text name="Common.M" value=" M" />
+    <text name="Common.Incorrectpassword" value="Incorrect password" />
+    <text name="Common.Thereisnocurrentuser" value="There is no current user!" />
+    <text name="Common.AlreadyRated" value="You have already submitted your rating" />
+    <text name="Api.SucssesChangPass" value="Password changed Successfuly" />
+	<text name="Api.ErroChangPass" value="Current password is wrong" />
+
+    <text name="Common.Welcome" value="Welcome " />
+    <text name="Pages.Register.ResetPasswordCode" value="Reset Password Code " />
+    
+    
+    <text name="Common.Error.InvalidSetting" value="Invalid Settings " />
+    <text name="Pages.Register.CheckEmailToResetPassword" value="Check Email To Reset Password " />
+    <text name="Pages.Register.ResetPassword" value="Reset Password" />
+		
+		
+		<!--Notification-->
+    <text name="Notification.Youradvertisementwasrejectedbecause" value="Your advertisement was rejected because {0}" />
+    <text name="Notification.RejectAdvertisement" value="Rejected Advertisement" />
+    <text name="Notification.YouradvertisemenIsDeleted" value="You advertisement has been deleted" />
+    <text name="Notification.DeleteAdvertisement" value="Advertisement deleted" />
+    <text name="Common.Error.UserWithNumberNotFound" value="Mobile number is not registered with Us" />
+
+  </texts>
+</localizationDictionary>

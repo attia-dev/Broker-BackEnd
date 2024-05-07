@@ -1,0 +1,716 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<localizationDictionary culture="ar">
+	<texts>
+		<text name="HomePage" value="Home page" />
+		<text name="About" value="عنا" />
+		<text name="WelcomeMessage" value="Welcome to Broker!" />
+		<text name="FormIsNotValidMessage" value="Form is not valid. Please check and fix errors." />
+		<text name="TenantNameCanNotBeEmpty" value="Tenant name can not be empty" />
+		<text name="InvalidUserNameOrPassword" value="خطأ في اسم المستخدم أو كلمة المرور" />
+		<text name="ThereIsNoTenantDefinedWithName{0}" value="There is no tenant defined with name {0}" />
+		<text name="TenantIsNotActive" value="Tenant {0} is not active." />
+		<text name="UserIsNotActiveAndCanNotLogin" value="User {0} is not active and can not log in." />
+		<text name="UserEmailIsNotConfirmedAndCanNotLogin">Your email address is not confirmed. You can not login.</text>
+		<text name="UserLockedOutMessage">The user account has been locked out. Please try again later.</text>
+		<text name="PleaseEnterLoginInformation" value="Please enter login information" />
+		<text name="TenancyName" value="Tenancy name" />
+		<text name="UserNameOrEmail" value="اسم المستخدم او البريد الإلكتروني" />
+		<text name="Password" value="كلمة المرور" />
+		<text name="ConfirmPassword" value="تأكيد كلمة المرور" />
+		<text name="ResetPassword" value="Reset Password" />
+		<text name="UpdatePassword" value="Update Password" />
+    <text name="Common.RestPass" value="اعادة تعيين كلمة السر" />
+    <text name="Pages.Consultant.ConfirmPassword" value="تأكيد كلمة السر" />
+		<text name="RememberMe" value="تذكرني" />
+		<text name="LogIn" value="تسجيل الدخول" />
+		<text name="LoginFailed" value="ليس لديك صلاحية الدخول" />
+		<text name="NameSurname" value="Name surname" />
+		<text name="UserName" value="اسم المستخدم" />
+		<text name="FirstName" value="الاسم الاول" />
+		<text name="LastName" value="الاسم الاخير" />
+		<text name="Name" value="Name" />
+		<text name="Surname" value="اسم العائلة" />
+		<text name="EmailAddress" value="البريد الالكتروني" />
+		<text name="Tenants" value="Tenants" />
+		<text name="SavedSuccessfully" value="تم الحفظ بنجاح" />
+		<text name="CreateNewTenant" value="Create new tenant" />
+		<text name="AdminEmailAddress" value="Admin email address" />
+		<text name="AdminPassword" value="Admin password" />
+		<text name="Save" value="Save" />
+		<text name="Cancel" value="Cancel" />
+		<text name="TenantName_Regex_Description" value="Tenant name must be at least 2 chars, starts with a letter and continue with letter, number, dash or underscore." />
+		<text name="DefaultPasswordIs" value="Default password is {0}" />
+		<text name="CanBeEmptyToLoginAsHost" value="Can be empty to login as host." />
+		<text name="Register" value="انشاء حساب " />
+		<text name="RegisterNow" value="سجل الان" />
+		<text name="Donothaveanaccountyet" value="ليس لديك حساب بالفعل" />
+		<text name="OrLoginWith" value="Or login with" />
+		<text name="WaitingForActivationMessage" value="Your account is waiting to be activated by system admin." />
+		<text name="TenantSelection" value="Tenant Selection" />
+		<text name="TenantSelection_Detail" value="Please select one of the following tenants." />
+		<text name="Logout" value="تسجيل الخروج" />
+		<text name="RegisterFormUserNameInvalidMessage">Please don't enter an email address for username.</text>
+		<text name="DatabaseConnectionString" value="Database connection string" />
+		<text name="Users" value="Users" />
+		<text name="IsActive" value="Is active" />
+		<text name="FullName" value="الاسم كامل" />
+		<text name="CreateNewUser" value="Create new user" />
+		<text name="Yes" value="نعم" />
+		<text name="No" value="لا" />
+		<text name="Optional" value="Optional" />
+		<text name="LeaveEmptyToSwitchToHost">Leave empty to switch to the host</text>
+		<text name="CurrentTenant">Current tenant</text>
+		<text name="NotSelected">Not selected</text>
+		<text name="Change">Change</text>
+		<text name="ChangeTenant">Change tenant</text>
+		<text name="MultiLevelMenu">Multi Level Menu</text>
+		<text name="Back">رجوع</text>
+		<text name="SuccessfullyRegistered">Successfully registered</text>
+		<text name="WaitingForEmailActivation">Your email address should be activated</text>
+		<text name="Roles">Roles</text>
+		<text name="DisplayName">Display Name</text>
+		<text name="Edit">Edit</text>
+		<text name="Delete">Delete</text>
+		<text name="CreateNewRole">Create new role</text>
+		<text name="RoleName">Role Name</text>
+		<text name="Actions">Actions</text>
+		<text name="CouldNotCompleteLoginOperation">Could not complete login operation. Please try again later.</text>
+		<text name="CouldNotValidateExternalUser">Could not validate external user</text>
+		<text name="EditRole">Edit role</text>
+		<text name="EditTenant">Edit tenant</text>
+		<text name="EditUser">Edit user</text>
+		<text name="TenantIdIsNotActive{0}">TenantId {0} is not active</text>
+		<text name="UnknownTenantId{0}">Unknown tenantId {0}</text>
+		<text name="ThisFieldIsRequired">هذا الحقل مطلوب</text>
+		<text name="PleaseWait">Please wait...</text>
+		<text name="Administration">Administration</text>
+		<text name="ClearAll">Clear all</text>
+		<text name="ClearOthers">Clear others</text>
+		<text name="LabelOptions">Label options</text>
+		<text name="Permissions">Permissions</text>
+		<text name="RoleDescription">Role description</text>
+		<text name="Refresh">Refresh</text>
+		<text name="Create">Create</text>
+		<text name="UserDetails">User details</text>
+		<text name="UserRoles">User roles</text>
+
+		<text name="Version">Version</text>
+		<text name="On">On</text>
+		<text name="Off">Off</text>
+		<text name="AreYouSureWantToDelete">Are you sure want to delete {0}?</text>
+		<text name="SuccessfullyDeleted">تم الحذف بنجاح</text>
+		<text name="StartTyping">Start Typing</text>
+		<text name="Skins">Skins</text>
+		<text name="Settings">Settings</text>
+		<text name="Filter">Filter</text>
+		<text name="CurrentPassword">Current Password</text>
+		<text name="NewPassword">New Password</text>
+		<text name="ConfirmNewPassword">Confirm New Password</text>
+		<text name="PasswordsDoNotMatch">كلمة السر غير متطابقة</text>
+		<text name="PasswordsMustBeAtLeast8CharactersContainLowercaseUppercaseNumber">Passwords must be at least 8 characters, contain a lowercase, uppercase, and number</text>
+		<!--<text name="UserDeleteWarningMessage">User {0} will be deleted.</text>-->
+		<text name="UserDeleteWarningMessage">حذف هذه الفترة الزمنية</text>
+		<text name="RoleDeleteWarningMessage">Role {0} will be deleted and unassigned from all assigned users.</text>
+		<text name="TenantDeleteWarningMessage">Tenant {0} will be deleted.</text>
+		<text name="SearchWithThreeDot">Search...</text>
+		<text name="PleaseEnterAtLeastNCharacter">Please enter at least {0} characters</text>
+		<text name="PleaseEnterNoMoreThanNCharacter">Please enter no more than {0} characters</text>
+		<text name="InvalidEmailAddress">Invalid email address</text>
+		<text name="InvalidPattern">Invalid</text>
+		<text name="PairsDoNotMatch">Do not match</text>
+		<text name="All">الكل</text>
+		<text name="TotalRecordsCount">Total: {0}</text>
+		<text name="Search">بحث</text>
+		<text name="Clear">مسح</text>
+		<text name="ResetPasswordStepOneInfo">1. Enter your administrator password</text>
+		<text name="ResetPasswordStepTwoInfo">2. Copy this random password so you can send it to the user</text>
+		<text name="UsersActivation">Users activation</text>
+
+		<!--common pages admin -->
+		<text name="Common.Cash">نقدى</text>
+		<text name="Common.Credit">الكترونى</text>
+		<text name="Common.PoweredBy" value="بواسطة" />
+		<text name="Common.NahrDev" value="شركة نهر" />
+		<text name="Common.Copyright" value="جميع الحقوق محفوظة" />
+		<text name="Common.Create">انشاء</text>
+		<text name="Common.Filter">بحث</text>
+		<text name="Common.Save">حفظ</text>
+		<text name="Common.Cancel">الغاء</text>
+		<text name="Common.Period">فترة</text>
+		<text name="Common.IsPublish">هل ينشر</text>
+		<text name="Common.UploadFile">رفع صورة</text>
+		<text name="Common.UploadPhoto">رفع صورة</text>
+		<text name="Common.UploadPhoto.Description">مسموح بـ JPG, GIF or PNG. أقصى حجم 2MB</text>
+		<text name="Common.Password">كلمة المرور</text>
+		<text name="Common.PasswordRequired">كلمة المرور مطلوب</text>
+		<text name="Common.PasswordMinLength">كلمة المرور ابد ان تكون على الاقل 8 رموز</text>
+		<text name="Common.PasswordMaxLength">كلمة المرور لابد ان تكون على اكثر 360 احرف</text>
+		<text name="Common.Name">الاسم</text>
+		<text name="Common.Points">نقاط</text>
+		<text name="Common.NameRequired" value="الاسم مطلوب" />
+		<text name="Common.DurationRequired" value="المدة مطلوبة" />
+		<text name="Common.NameEn">الاسم الانجليزى</text>
+		<text name="Common.NameEnRequired">الاسم الانجليزى مطلوب</text>
+		<text name="Common.NameEnMinLength">الاسم الانجليزى مطلوب لابد ان تكون على الاقل 3 احرف</text>
+		<text name="Common.NameEnMaxLength">الاسم الانجليزى مطلوب لابد ان تكون على اكثر 360 احرف</text>
+		<text name="Common.NameAr">الاسم العربى</text>
+		<text name="Common.NameArRequired">الاسم العربى مطلوب</text>
+		<text name="Common.NameArMinLength">الاسم العربى مطلوب لابد ان تكون على الاقل 3 احرف</text>
+		<text name="Common.NameArMaxLength">الاسم العربى مطلوب لابد ان تكون على اكثر 360 احرف</text>
+		<text name="Common.EmailAddress">البريد الالكترونى</text>
+    <text name="Common.EmailSubject">موضوع الايميل</text>
+		<text name="Common.EmailAddressRequired">البريد الالكترونى مطلوب</text>
+		<text name="Common.EmailAddressMinLength">البريد الالكترونى لابد ان تكون على الاقل 3 احرف</text>
+		<text name="Common.EmailAddressMaxLength">البريد الالكترونى مطلوب لابد ان تكون على اكثر 360 احرف</text>
+		<text name="Common.PhoneNumber">رقم التليفون</text>
+		<text name="Common.PhoneNumberRequired">رقم التليفون مطلوب</text>
+		<text name="Common.PhoneNumberMinLength">رقم التليفون لابد ان تكون على الاقل 6 رقم </text>
+		<text name="Common.PhoneNumberMaxLength">رقم التليفون لابد ان تكون على اكثر 11 رقم</text>
+		<text name="Common.BirthDate">تاريخ الميلاد</text>
+		<text name="Common.About">عنا</text>
+		<text name="Common.Gender">النوع</text>
+		<text name="Common.Title">لقب</text>
+		<text name="Common.MobileNumber">رقم الموبيل</text>
+		<text name="Common.Address">العنوان</text>
+
+		<text name="Common.BuildingType">نوع المبنى</text>
+		<text name="Common.Compound">المجمع</text>
+		<text name="Common.Area">المنطقة</text>
+		<text name="Common.BuildingArea">منطقة المبنى</text>
+
+		<text name="Common.LE" value="ج م" />
+		<text name="Common.Edit" value="تعديل" />
+		<text name="Common.Delete" value="حذف" />
+		<text name="Common.Required">هذا الحقل مطلوب</text>
+		<text name="Common.Code">شفرة</text>
+		<text name="Common.Accept">قبول</text>
+		<text name="Common.Reject">رفض</text>
+    <text name="Common.Pending">انتظار</text>
+    <text name="Common.Accepted">مقبول</text>
+    <text name="Common.Rejected">مرفوض</text>
+    <text name="Common.All">الكل</text>
+		<text name="Common.Restore" value="إرجاع" />
+		<text name="Common.Error.AjaxError" value="لم يتم تنفيذ الطلب" />
+		<text name="Common.Error.AjaxErrorDetails" value="يرجى المحاولة مرة أخرى، أو الإتصال بمدير النظام" />
+		<text name="Common.Error.InvalidForm" value="يوجد أخطاء في النموذج" />
+		<text name="Common.Error.Required" value="الحقل مطلوب" />
+		<text name="Common.Error.InvalidEmail" value="البريد الالكتروني غير صحيح" />
+		<text name="Common.Error.InvalidPhoneNumber" value="الرقم غير صحيح" />
+		<text name="Common.Error.InvalidUserName" value="اسم المستخدم يجب ان يحتوي فقط علي ارقام او احرف او نقطة فاصلة" />
+		<text name="Common.Error.InvalidTenancyName" value="اسم المستخدم يجب ان يحتوي فقط علي ارقام او احرف او نقطة فاصلة" />
+		<text name="Common.Error.Invalid" value="الحقل غير صحيح" />
+		<text name="Common.Error.InvalidLookup" value="ابحث واختر عنصر من القائمة" />
+		<text name="Common.Error.MaxLength" value="الحد الاقصى يكون [{0}]حرف او رقم" />
+		<text name="Common.Error.DecimalOnly" value="ارقام عشرية فقط" />
+		<text name="Common.Error.PasswordLength" value="يجب أن تتكون كلمة المرور من 6 أحرف على الأقل" />
+		<text name="Common.Error.PasswordsMatching" value="كلمات المرور غير متطابقة " />
+		<text name="Common.Select" value="اختر" />
+		<text name="Common.Subscribe" value="اشترك" />
+    <text name="Common.From" value="من" />
+    <text name="Common.To" value="إلى" />
+    <text name="Common.Enable" value="تمكين" />
+    <text name="Common.Disable" value="الغاء" />
+		<text name="Common.Renew" value="تجديد" />
+		<text name="Pages.Branches.Message" value="الجهه الخارجية" />
+		<text name="Common.EmailPattern.Invalid" value="بريد الكتروني غير صحيح" />
+		<text name="Common.PhonePattern.Invalid" value="رقم هاتف غير صالح" />
+		<!--DataTable-->
+		<text name="Common.DataTable.SelectedCount" value="_TOTAL_ سجلات محددة" />
+		<text name="Common.DataTable.AjaxRequestGeneralError" value="لم يتم تنفيذ الطلب، يرجى التأكد من الإتصال بالإنترنت" />
+		<text name="Common.DataTable.LengthMenu" value="إظهار _MENU_" />
+		<text name="Common.DataTable.Info" value="العثور على _TOTAL_" />
+		<text name="Common.DataTable.InfoFiltered" value="(منتقاة من إجمالي _MAX_)" />
+		<text name="Common.DataTable.InfoEmpty" value="لا توجد سجلات للعرض" />
+		<text name="Common.DataTable.EmptyTable" value="لا توجد سجلات في قاعدة البيانات" />
+		<text name="Common.DataTable.ZeroRecords" value="لا توجد سجلات مطابقة لحقول للتنقية" />
+		<text name="Common.DataTable.Paginate.Previous" value="سابق" />
+		<text name="Common.DataTable.Paginate.Next" value="تالي" />
+		<text name="Common.DataTable.Paginate.Last" value="أخير" />
+		<text name="Common.DataTable.Paginate.First" value="أول" />
+		<text name="Common.DataTable.Paginate.Page" value="صفحة" />
+		<text name="Common.DataTable.Paginate.PageOf" value="من" />
+		<text name="Common.DataTable.Reset" value="إعادة ضبط" />
+		<text name="Common.DataTable.Refresh">تحديث</text>
+		<text name="Common.DataTable.Columns" value="الأعمدة المعروضة" />
+		<text name="Common.DataTable.NoRecordsSelected" value="لم يتم اختيار سجلات" />
+		<!--common messages-->
+		<text name="Common.Message.Confirm.Approve" value="هل أنت متأكد من قبول السجل(ات) من قواعد البيانات ؟" />
+		<text name="Common.Message.Confirm.Decline" value="هل أنت متأكد من رفض السجل(ات) من قواعد البيانات ؟" />
+    <text name="Common.Message.ThereIsNoPhotos" value="لا يوجد صور" />
+    <text name="Common.Message.ThereIsNoLayouts" value="لا يوجد تخطيتات" />
+    <text name="Common.Message.Confirm.Enable" value="هل أنت متأكد من تمكين السجل(ات) من قواعد البيانات ؟" />
+    <text name="Common.Message.Confirm.Disable" value="هل أنت متأكد من تعطيل السجل(ات) من قواعد البيانات ؟" />
+    
+
+    
+		<text name="Common.Message.ActionSuccess" value="تم تنفيذ الطلب" />
+		<text name="Common.Message.DataIsNotValid" value="الكود غير صالح" />
+		<text name="Common.Message.FixedAmountRequired" value="القيمة الثابتة مطلوبة" />
+		<text name="Common.Message.PercentageAmountRequired" value="النسبة يجب ان تكون بين 1 و 100" />
+
+		<text name="Common.Message.SuccessfulOperation" value="عملية ناجحة" />
+		<text name="Common.Message.SettingsChanged" value="إعدادات النظام تغيرت، سوف ستم إعاده تحميل البرنامج" />
+		<text name="Common.Message.PermissionsChanged" value="صلاحيات النظام تغيرت، سوف ستم إعاده تحميل البرنامج" />
+		<text name="Common.Message.Confirm.Delete" value="هل أنت متأكد من حذف السجل(ات)؟" />
+		<text name="Common.Message.Confirm.Activate" value="هل أنت متأكد من تنشيط السجل(ات)؟" />
+		<text name="Common.Message.Confirm.Deactivate" value="هل أنت متأكد من إلغاء تنشيط السجل(ات)؟" />
+		<text name="Common.Message.Confirm.HardDelete" value="هل أنت متأكد من حذف السجل(ات) من قواعد البيانات ؟" />
+		<text name="Common.Message.Confirm.Restore" value="هل أنت متأكد من استرجاع السجل(ات)؟" />
+		<text name="Common.Message.Delete" value="تم حذف السجل" />
+		<text name="Common.Message.Save" value="تم حفظ السجل" />
+    <text name="Common.Message.ObjectNotFound" value="لا يوجد عنصر بهذا الرقم التعريفى" />
+    <text name="Common.Message.ObjectNotPuplished" value="العنصر ليس فى حالة النشر" />
+    <text name="Common.Message.ObjectNotInDuration" value="العنصر تعدى المدة المسموحة" />
+
+    <text name="Common.Message.StaticData" value="سوف يتم تجاهل الحذف للعناصر الثابتة" />
+		<text name="Common.Message.PassowrdChangedSuccessfully" value="تم تغير الرقم السري بنجاح" />
+		<text name="Common.Message.ProfileDateUpdatedSuccessfully" value="تم تغيير البيانات بنجاح" />
+		<!--satus of gender -->
+		<text name="Common.Gender.Male">ذكر</text>
+		<text name="Common.Gender.Female">انثى</text>
+		<text name="Common.Gender.Unspecified" value="غير محدد" />
+		<!--Database Common Columns-->
+		<text name="Common.DisplayName">الإسم المعروض</text>
+		<text name="Common.ArabicName">الإسم العربي</text>
+		<text name="Common.EnglishName">الإسم الأجنبي</text>
+		<text name="Common.Description">الوصف</text>
+		<text name="Common.ArabicDescription">الوصف العربي</text>
+		<text name="Common.EnglishDescription" >الوصف الأجنبي</text>
+		<text name="Common.EnglishAbout">عن بالانجليزي</text>
+		<text name="Common.ArabicAbout">عن بالعربي</text>
+		<text name="Common.EnglishAddress">العنوان بالانجليزي</text>
+		<text name="Common.ArabicAddress">العنوان بالعربي</text>
+		<text name="Common.CreatedBy">أنشا بواسطة</text>
+		<text name="Common.CreatedOn">تاريخ الإنشاء</text>
+		<text name="Common.ModifiedBy" >عدل بواسطة</text>
+		<text name="Common.ModifiedOn">تاريخ التعديل</text>
+		<text name="Common.DeletedBy">حذف بواسطة</text>
+		<text name="Common.DeletedOn">تاريخ الحذف</text>
+		<text name="Common.Deleted">محذوف</text>
+		<text name="Common.NotDeleted">غير محذوف</text>
+		<text name="Common.Status">الحاله</text>
+		<text name="Common.Actions">إجرائات</text>
+		<text name="Common.Options">خيارات</text>
+		<text name="Common.ShowDeleted">إظهار المحذوف</text>
+		<text name="Common.Search">بحث</text>
+		<text name="Common.CancelSearch" >إلغاء البحث</text>
+		<text name="Common.Register" >تسجيل</text>
+		<text name="Common.City" value="المدينة" />
+		<text name="Common.Region">المنطقة</text>
+		<text name="Common.Parent">الرئيسى</text>
+		<text name="Common.Email">البريد الالكترونى</text>
+		<text name="Common.Longitude">خط الطول </text>
+		<text name="Common.Latitude">خط العرض</text>
+		<text name="Common.Price">السعر</text>
+		<text name="Common.AccountType">نوع الحساب</text>
+		<text name="Common.Duration">المدة</text>
+		<text name="Common.FixedAmount">قيمة ثابتة</text>
+		<text name="Common.AgendaRatio">نسبة اجندا</text>
+		<text name="Common.DoctorRatio">نسبة الدكتور</text>
+		<text name="Common.TeacherRatio">نسبة المدرس</text>
+		<text name="Common.LawyerRatio">نسبة المحامى</text>
+		<text name="Common.PercentageAmount">رسوم الاشتراك لكل حجز</text>
+		<text name="Common.DiscountType">نوع الخصم</text>
+		<text name="Common.Discount">الخصم</text>
+		<text name="Common.FeesType">نوع الاجر</text>
+		<text name="Common.Print" value="طباعه" />
+		<text name="Common.New" value="اضافة جديد" />
+		<text name="Common.DisplayOrder" value="ترتيب" />
+		<text name="Common.Discard" value="الغاء" />
+		<text name="Common.Published" value="نشط" />
+		<text name="Common.IsActive" value="نشط" />
+		<text name="Common.Systemkeyword" value="الكلمة الأساسية للنظام" />
+		<text name="Common.Ratio" value="نسبة" />
+		<text name="Common.EmailValid" value="الرجاء ادخال بريد الكترونى صالح" />
+		<text name="Common.System" value="النظام" />
+		<text name="Common.Any" value="الكل" />
+    <text name="Common.Newer" value="الأحدث" />
+		<text name="Common.Activate" value="تنشيط" />
+		<text name="Common.Deactivate" value="الغاء التنشيط" />
+		<text name="Common.Amount" value="كمية" />
+		<text name="Common.Percentage" value="نسبة مئوية" />
+		<text name="Common.BasicInfo" value="البيانات الأساسية" />
+		<text name="Common.Standard" value="الأساسية" />
+		<text name="Common.English" value="الانجليزية" />
+		<text name="Common.POSABLE" value="ممكن" />
+		<text name="Common.panel" value="جدول" />
+		<text name="Common.SelectAll" value="تحديد الكل" />
+		<text name="Common.UnSelectAll" value="الغاء التحديد" />
+		<text name="Common.ShortDescription" value="وصف قصير" />
+		<text name="Common.FullDescription" value="وصف كامل" />
+		<text name="Common.Basic" value="اساسي" />
+		<text name="Common.Advanced" value="متقدم" />
+		<text name="Common.Single" value="فردى" />
+		<text name="Common.Multiple" value="متعدد" />
+		<text name="Common.ReturnList" value="الرجوع الى الخيارات" />
+		<text name="Common.SearchDashboard" value="...البحث" />
+		<text name="Common.Searchs." value="ابحث بالاسم" />
+		<text name="Common.AmountRequired" value="الكمية مطلوبة" />
+		<text name="Common.PercentageRequired" value="النسبة مطلوبة" />
+		<text name="Common.Search.Input" value="ابحث هنا" />
+		<text name="Common.Error.OnlyNumber" value="أدخل ٦ أرقام فقط " />
+		<text name="Common.DepartmentTypes" value="الادارة" />
+		<text name="Common.Type" value="النوع" />
+		<text name="Common.Date" value="التاريخ" />
+		<text name="Common.Avatar" value="الصورة" />
+		<text name="Common.DescriptionAr" value="الوصف العربى" />
+		<text name="Common.DescriptionEn" value="الوصف الانجليزى" />
+		<text name="Common.Money" value="المال" />
+		<text name="Common.Sponsored" value="راعي" />
+		<text name="Common.NotSponsored" value="شركه" />
+		<text name="Common.Deactivated" value="الغاء تفعيل" />
+		<text name="Common.Active" value="تفعيل" />
+		<text name="Common.Message.Confirm.approve" value="التحويل الي راعي" />
+		<text name="Common.Message.Confirm.decline" value="التحويل الي شركه" />
+		<text name="Common.Message.Confirm.active" value="تفعيل" />
+		<text name="Common.Message.Confirm.deactivate" value="الغاء تفعيل" />
+		<text name="Common.Apartment" value="شقه" />
+		<text name="Common.Villa" value="فيلا" />
+		<text name="Common.ChaletForSummer" value="شاليه للمصيف" />
+		<text name="Common.Building" value="مبني" />
+		<text name="Common.AdminOffice" value="مكتب اداري" />
+		<text name="Common.Shop" value="محل" />
+		<text name="Common.Land" value="قطعه ارض" />
+    <text name="Common.Chalet" value="شاليه" />
+		<!--System Messages-->
+		<text name="Messages.InvalidForm" value="المدخلات غير صحيحة" />
+		<text name="Messages.InvalidLogin" value="خطأ في اسم المستخدم أو كلمة المرور" />
+		<text name="Messages.UserIsNotActive" value="حساب المستخدم [{0}] غير مغعل" />
+		<text name="Messages.InvalidTenant" value="لا يوجد هيئة بإسم [{0}]" />
+		<text name="Messages.TenantIsNotActive" value="حساب الهيئة [{0}] غير مغعل" />
+		<text name="Messages.Followers.ExistEmail" value="هذا البريد الإلكتروني موجود بالفعل" />
+		<text name="Messages.Followers.Succeed" value="تم ارسال البريد الإلكتروني بنجاح" />
+		<text name="Messages.Error" value="حدث خطأ, من فضلك حاول مرة أخرى" />
+		<text name="Messages.ContactMessage.Succeed" value="تم ارسال الرسالة بنجاح" />
+		<text name="Messages.InvalidOldPassword" value="كلمة المرور القديمة غير صحيحة" />
+		<text name="Messages.InvalidNewPassword" value="كلمة المرور الجديدة غير صحيحة، كلمة المرور لابد ان تكون على الأقل 6 حروف" />
+		<!--Permissions-->
+		<text name="Permissions.Common.Read" value="قراءة" />
+		<text name="Permissions.Common.Write" value="تعديل" />
+		<text name="Permissions.Common.Delete" value="حذف" />
+		<text name="Permissions.Common.ClearExplicit" value="إلغاء الصلاحيات الحصرية" />
+		<text name="Permissions.Common.AccessDeniedTitle" value="دخول غير مصرح" />
+		<text name="Permissions.Common.AccessDeniedMessage" value="لا تملك صلاحية: {0}" />
+		<text name="Permission.Admins" value="المديرين" />
+		<text name="Permission.UserPermissions" value="صلاحيات المستخدم" />
+		<text name="Permission.Settings" value="الإعدادات" />
+		<text name="Permission.ActivityLog" value="سجل النشاطات" />
+		<text name="Pages.Users.UsersManagement" value="المدير" />
+    <text name="Pages.Users.Error.PhoneNumberAlreadyExist" value="رقم الهاتف موجود بالفعل" />
+    <text name="Pages.Users.Error.AlreadyExistInDeleted" value="هذا المستخدم موجود بالفعل فى المحذوفات" />
+    <text name="Pages.Users.Error.AlreadyExist" value="هذا المستخدم موجود بالفعل" />
+		<text name="Pages.Users.ManageUser" value="ادارة المستخدمين" />
+		<text name="Permission.Lookups" value="الاستطلاعات" />
+		<text name="Permission.Countries" value="الدول" />
+		<text name="Permission.Cities" value="المدن" />
+		<text name="Permission.Dashboards" value="لوحة الادارة" />
+		<text name="Permission.Governorates" value="المحافظات" />
+		<text name="Permission.Packages" value="الباقات" />
+		<text name="Permission.Facilities" value="التسهيلات" />
+		<text name="Permission.Documents" value="الوثائق" />
+		<text name="Permission.Decorations" value="التشطيبات" />
+		<text name="Permission.Durations" value="الفترات" />
+    <text name="Permission.ContactUs" value="التواصل معنا" />
+		<text name="Permission.DiscountCodes" value="اكواد الخصم" />
+		<text name="Permission.Properties" value="الخصائص" />
+		<text name="Permission.FeatureAds" value="اعلانات مميزة" />
+		<text name="Permission.Points" value="النقاط" />
+		<text name="Permission.Users" value="المستخديمن" />
+		<text name="Permission.Brokers" value="السمساسرة" />
+		<text name="Permission.Owners" value="الملاك" />
+		<text name="Permission.Seekers" value="العملاء" />
+		<text name="Permission.Companies" value="الشركات" />
+		<text name="Permission.Advertisements" value="الاعلانات" />
+		<text name="Permission.ManagePages" value="ادارة الصفحات" />
+		<text name="Permission.Abouts" value="عننا" />
+		<text name="Permission.Contacts" value="بيانات التواصل" />
+
+		<!--Settings-->
+		<text name="Settings.Groups.Email" value="البريد الإلكتروني" />
+		<text name="Settings.EmailConfirmationRequiredForLogin.Description" value="تأكيد البريد الإلكتروني مطلوب قبل تسجيل الدخول" />
+		<text name="Settings.EmailConfirmationRequiredForLogin" value="تأكيد البريد الإلكتروني مطلوب" />
+		<text name="Settings.Mail.Host" value="مضيف" />
+		<text name="Settings.Mail.Port" value="المنفذ" />
+		<text name="Settings.Mail.UserName" value="اسم المستخدم" />
+		<text name="Settings.Mail.Password" value="كلمة المرور" />
+		<text name="Settings.Mail.Domain" value="نطاق" />
+		<text name="Settings.Mail.EnableSsl" value="تمكين SSL" />
+		<text name="Settings.Mail.UseDefaultCredentials" value="استخدام شهاده معتمده" />
+		<text name="Settings.Mail.DefaultFromAddress" value="عنوان افتراضي" />
+		<text name="Settings.Mail.DefaultFromDisplayName" value="إسم عرض افرتاضي" />
+		<text name="Settings.Groups.Display" value="اعدادات اللغة" />
+		<text name="Settings.FavouriteLanguage" value="اللغة المفضلة" />
+		<text name="Settings.FavouriteLanguage.Description" value="اللغة المفضلة عند التصفح اول مرة" />
+		<text name="Settings.Groups.List" value="إعدادات جداول البيانات" />
+		<text name="Settings.SaveDataTableState" value="حفظ حالة جداول البيانات" />
+		<text name="Settings.SaveDataTableState.Description" value="جداول البيانات سوف تحتفظ بالحالة السابقة عند الرجوع إليها مره أخرى" />
+		<text name="Settings.Groups.Public" value="اعدادات عامه" />
+		<text name="Settings.ApplyFilterOnBlur" value="تطبيق الفلتر" />
+		<text name="Settings.ApplyFilterOnBlur.Description" value="تطبيق الفلتر" />
+		<text name="Settings.Profile" value="الحساب الشخصي" />
+		<text name="Settings.settings" value="الضبط" />
+		<!--Mange Pages-->
+		<text name="Pages.About.Title" value="عنا" />
+		<text name="Pages.Contact.Title" value="تواصل معنا" />
+		<text name="Pages.Points.Title" value="النقاط" />
+		<text name="Pages.FeatureAds.Title" value="الميزات" />
+		<text name="Pages.Lookups.FeatureAds.Title" value="الميزات" />
+    <text name="Pages.Lookups.ContactUs.Title" value="التواصل معنا" />
+
+		<text name="Pages.About.ShortArabicDescription" value="وصف عربي قصير " />
+		<text name="Pages.About.ShortEnglishDescription" value="وصف اجنبي قصير " />
+
+		<!--lookups-->
+
+		<text name="Pages.Lookups.Title" value="التعريفات" />
+		<text name="Pages.ManagePages.Title" value="إدارة الصفحات" />
+		<text name="Pages.Dashboard.Title" value="لوحة الادارة" />
+		<!--Governorates-->
+		<text name="Pages.Governorate.ManageGovernorate" value="إدارة المحافظه" />
+		<text name="Common.Governorate" value="المحافظه" />
+		<!--Owners-->
+		<text name="Pages.Owners.Title" value="الملاك" />
+
+		<!--BrokerPersons-->
+		<text name="Pages.BrokerPersons.Title" value="السماسرة" />
+
+		<!--Seekers-->
+		<text name="Pages.Seekers.Title" value="الباحثون" />
+		<!--Companies-->
+		<text name="Pages.Companies.Title" value="الشركات" />
+		<text name="Pages.Sponsors.Title" value="الرعاة" />
+		<!--Users-->
+		<text name="Pages.Users.Title" value="المستخدمين" />
+
+		<text name="Pages.Lookups.Countries.Title" value="الدول" />
+		<text name="Pages.Lookups.Governorates.Title" value="المحافظات" />
+
+		<text name="Pages.Lookups.Cities.Title" value="المدن" />
+
+		<text name="Pages.Lookups.Facilities.Title" value="التسهيلات" />
+		<text name="Pages.Lookups.Documents.Title" value="الوثائق" />
+		<text name="Pages.Lookups.Decorations.Title" value="الديكورات" />
+		<text name="Pages.Lookups.Points.Title" value="النقاط" />
+		<text name="Pages.Lookups.About.Title" value="عنا" />
+		<text name="Pages.Lookups.Contact.Title" value="تواصل معنا" />
+		<!--Definition-->
+		<text name="Pages.Facilities.ManageFacility" value="إدارة التسهيلات" />
+		<text name="Common.Facility" value="Facility" />
+		<text name="Pages.Documents.ManageDocument" value="إدارة الوثائق" />
+		<text name="Pages.Decorations.ManageDecoration" value="إدارة الديكورات" />
+		<text name="Common.Document" value="الوثائق" />
+		<!--Countries-->
+		<text name="Pages.Countries.ManageCountry" value="إدارة الدولة" />
+		<text name="Common.Country" value="الدولة" />
+
+		<!--City-->
+		<text name="Pages.Cities.ManageCity" value="إدارة المدينة" />
+
+		<!-- Durations -->
+		<text name="Pages.Lookups.Durations.Title" value="المدة" />
+		<text name="Pages.Durations.ManageDuration" value="إدارة المدة" />
+
+		<!-- DiscountCodes -->
+		<text name="Pages.Lookups.DiscountCodes.Title" value="الخصومات" />
+		<text name="Pages.DiscountCodes.ManageDiscountCode" value="إدارة كود الخصم" />
+		<!--Package-->
+		<text name="Pages.Packages.ManagePackage" value="إدارة الباقات" />
+		<text name="Pages.Lookups.Packages.Title" value="الباقات" />
+
+		<text name="Common.SecondMobile" value="رقم موبيل اخر" />
+		<text name="Common.False" value="لا" />
+		<text name="Common.True" value="نعم" />
+		<text name="Common.Facebook" value="فيس بوك" />
+		<text name="Common.Instagram" value="انستجرام" />
+		<text name="Common.SnapChat" value="سناب شات" />
+		<text name="Common.Tiktok" value="تيك توك" />
+		<text name="Common.Website" value="الموقع الالكتروني" />
+		<text name="Common.IsSponser" value="الراعي" />
+
+		<!--Wallet-->
+		<text name="Pages.TransactionType.Incom" value="الدخل" />
+		<text name="Pages.TransactionType.OutCome" value="الخارج" />
+		<text name="Common.Wallet" value="المحفظه" />
+		<text name="Common.View">التفاصيل</text>
+		<text name="Common.TransactionTime">وقت العملية</text>
+		<text name="Common.ViewWallet">شاهد المحفظة</text>
+
+		<!-- Properties -->
+		<text name="Pages.Lookups.Properties.Title" value="الخصائص" />
+    <!-- ContactUs -->
+    <text name="Pages.ContactUs.ViewContactUs" value="عرض التواصل معنا" />
+
+    <!--Advertisements-->
+    
+    
+    <text name="Pages.Advertisements.Title" value="الاعلانات" />
+		<text name="Pages.Advertisements.ManageAdvertisement" value="ادارة الاعلانات" />
+    <text name="Common.Id" value="الرقم التعريفى" />
+    <text name="Common.AdvertisementInfo" value="تفاصيل الاعلان" />
+    <text name="Common.BuildingNumber" value="رقم المبنى" />
+    <text name="Common.FloorsNumber" value="عدد الطوابق" />
+    <text name="Common.StreetWidth" value="عرض الشارع" />
+    <text name="Common.Width" value="العرض" />
+    <text name="Common.Length" value="العمق" />
+    <text name="Common.BuildingDate" value="تاريخ البناء" />
+    <text name="Common.Rooms" value="الغرف" />
+    <text name="Common.Reception" value="الاستقبال" />
+    <text name="Common.Balcony" value="الشرفة" />
+		<text name="Common.RejectReason" value="سبب الرفض" />
+
+    <text name="Common.Kitchen" value="المطبخ" />
+    <text name="Common.Toilet" value="الحمام" />
+    <text name="Common.NumUnits" value="عدد الوحدات" />
+    <text name="Common.NumPartitions" value="عدد الاقسام" />
+    <text name="Common.OfficesNum" value="عدد المكاتب" />
+    <text name="Common.OfficesFloors" value="ارضيات المكتب" />
+    <text name="Common.Seeker" value="العميل" />
+    <text name="Common.Owner" value="المالك" />
+    <text name="Common.Company" value="الشركة" />
+    <text name="Common.Factory" value="مصنع" />
+    <text name="Common.BrokerPerson" value="السمسار" />
+    <text name="Common.Broker" value="سمسار" />
+    <text name="Common.IsApprove" value="مقبول؟" />
+    <text name="Common.FeaturedAd" value="اعلان مميز؟" />
+    <text name="Common.ApprovalStatus" value="حالة الموافقة" />
+
+    <text name="Common.AdvertiseMakerName" value="اسم صانع الاعلان" />
+    <text name="Common.IsWhatsApped" value="هل لديه واتس اب؟" />
+    <text name="Common.SecondMobileNumber" value="رقم محمول اخر" />
+    <text name="Common.ContactRegisterInTheAccount" value="جهة الاتصال مسجلة فى الحساب؟" />
+    <text name="Common.Furnished" value="مفروشة" />
+    <text name="Common.Elevator" value="مصعد" />
+    <text name="Common.Parking" value="موقف سيارات" />
+    <text name="Common.ParkingSpace" value="مساحة موقف السيارات" />
+    <text name="Common.Garden" value="الحديقة" />
+    <text name="Common.GardenArea" value="مساحة الحديقة" />
+    <text name="Common.Pool" value="حمام السباحة" />
+    <text name="Common.ShopsNumber" value="عدد المحلات" />
+    <text name="Common.Decoration" value="الزخرفة" />
+    <text name="Common.AirConditioner" value="مكيف الهواء" />
+
+    <text name="Common.DiningRoom" value="غرفة المعيشة" />
+    <text name="Common.Dinning" value="الغذاء" />
+    <text name="Common.ChaletType" value="نوع الشاليه" />
+    <text name="Common.AgreementStatus" value="حالة الموافقة" />
+    <text name="Common.BuildingStatus" value="حالة المبنى" />
+    <text name="Common.LandingStatus" value="حالة الهبوط" />
+    <text name="Common.UsingFor" value="يستخدم الى" />
+    <text name="Common.PaymentFacility" value="تسهيلات الدفع" />
+    <text name="Common.AdvertiseMakerType" value="نوع صانع الاعلان" />
+    <text name="Common.ProximityToTheSea" value="القرب من البحر" />
+
+    <text name="Common.OfficiesType" value="نوع المكاتب" />
+    <text name="Common.RentType" value="نوع التأجير" />
+    <text name="Common.Facilities" value="التسهيلات" />
+    <text name="Common.Photos" value="الصور" />
+    <text name="Common.Layouts" value="التخطيطات" />
+    <text name="Common.Sell" value="بيع" />
+    <text name="Common.Rent" value="ايجار" />
+    <text name="Common.For" value="من اجل" />
+    <text name="Common.In" value="فى" />
+    <text name="Common.Mr" value="السيد : " />
+    <text name="Common.Mrs" value="السيدة : " />
+    <text name="Common.Empty" value="فارغ" />
+    <text name="Common.Status.New" value="جديد" />
+    <text name="Common.Used" value="مستخدم" />
+    <text name="Common.Renewed" value="تجديد" />
+	<text name="Common.Registered" value="مسجل" />
+	<text name="Common.Unregistered" value="غير مسجل" />
+	<text name="Common.Registerable" value="قابل للتسجيل" />
+	<text name="Common.Unregisterable" value="غير قابل للتسجيل" />
+	<text name="Common.Without" value="بدون" />
+	<text name="Common.SemiFinished" value="نصف تشطيب" />
+	<text name="Common.Full" value="كامل" />
+	<text name="Common.HighQuality" value="تقنية عالية" />
+    <text name="Common.TheBroker" value="السمسار" />
+    <text name="Common.TheOwner" value="المالك" />
+    <text name="Common.Buildings" value="مبانى" />
+    <text name="Common.Industrial" value="صناعى" />
+    <text name="Common.Agriculture" value="زراعى" />
+    <text name="Common.Investment" value="استثمارى" />
+    <text name="Common.Residential" value="سكني" />
+    <text name="Common.Commercial" value="تجارى" />
+    <text name="Common.Allowed" value="مسموح" />
+    <text name="Common.NotAllowed" value="غير مسموح" />
+
+    <text name="Common.M100" value="100M" />
+    <text name="Common.M500" value="500M" />
+    <text name="Common.M500To1KM" value="50M To 1KM" />
+    <text name="Common.km1To5KM" value="1km To 5KM" />
+
+    <text name="Common.Monthly" value="شهرى" />
+    <text name="Common.MidTerm" value="نصفى" />
+    <text name="Common.Annual" value="سنوى" />
+
+    <text name="Common.ChaletRentType" value="نوع تأجير الشاليه" />
+    <text name="Common.ChaletRentValue" value="قيمة تأجير الشاليه" />
+    <text name="Common.NumOfMonths" value="عدد الشهور" />
+    <text name="Common.MinTimeToBookType" value="اقل مدة للحجز" />
+    <text name="Common.Street" value="الشارع" />
+    <text name="Common.Day" value="يومى" />
+    <text name="Common.Week" value="اسبوعى" />
+
+    <text name="Common.ChaletRentTypeDay" value="يوم" />
+    <text name="Common.ChaletRentTypeWeek" value="اسبوع" />
+
+    <text name="Common.Day1" value="يوم" />
+    <text name="Common.Days2" value="يومين" />
+    <text name="Common.Days3" value="ثلاثة أيام" />
+    <text name="Common.Week1" value="اسبوع" />
+    <text name="Common.Days10" value="عشرة أيام" />
+    
+    <text name="Common.Month" value="شهر" />
+    <text name="Common.Attachment" value="مرفق" />
+	<text name="Common.DownloadFile" value="تحميل الملف" />
+    <text name="Common.RatingValue" value="نسبة التقييم" />
+    <text name="Pages.Ratings.Title" value="التقييمات" />
+    <text name="Pages.MinTimeToBookForChalets.Manage" value="ادارة اقل مدة لتأجير شاليه" />
+    <text name="Pages.Lookups.MinTimeToBookForChalets.Title" value="اقل مدة لتأجير شاليه" />
+
+    <text name="Pages.Requests.Title" value="طلبات التعديل" />
+    <text name="Common.Property" value="الخاصية" />
+    
+    <!-- SocailContact -->
+    <text name="Pages.Lookups.SocialContacts.Title" value="روابط التواصل الاجتماعى" />
+    <text name="Common.SocialName" value="اسم وسيلة التواصل" />
+    <text name="Common.SocialValue" value="رابط وسيلة التواصل" />
+    <text name="Pages.SocialContact.ViewSocialContact" value="عرض وسيلة التواصل" />
+	<!--DropDown-->
+	<text name="Common.NoDataAvailable" value="لا توجد بيانات" />
+	<!--Discount-->
+	<text name="Common.DiscountCodeExpired" value="كود الخصم منتهي الصلاحية" />
+	<text name="Common.InvalidDiscountCode" value="كود الخصم غير صالح" />
+    <!--Projects-->
+    <text name="Pages.Projects.Title" value="المشاريع" />
+    <text name="Pages.Project.ManageProject" value="ادارة المشاريع" />
+    <text name="Common.ProjectInfo" value="تفاصيل المشروع" />
+    <text name="Common.Advertisements" value="الاعلانات :" />
+	<!--Meters-->
+	<text name="Common.M" value="م " />
+    <text name="Common.Advertisement" value="اعلانك " />
+    <text name="Common.isApproved" value=" تم قبوله" />
+    <text name="Common.isDeclined" value=" تم رفضه" />
+		<text name="Common.Incorrectpassword" value="كلمة سر خطأ" />
+		<text name="Common.Thereisnocurrentuser" value="لا يوجد مستخدم حالي" />
+		<text name="Common.AlreadyRated" value="هذا المستخدم قام بتقييمنا بالفعل " />
+		<text name="Api.SucssesChangPass" value="تم تغبر كلمةالسر بنجاح" />
+		<text name="Api.ErroChangPass" value="كلمة السر الحالية خطأ " />
+
+    <text name="Common.Welcome" value="اهلا " />
+
+    <text name="Pages.Register.ResetPasswordCode" value="رمز تغيير كلمة السر " />
+
+    <text name="Common.Error.InvalidSetting" value="خطأ فى الاعدادات " />
+    <text name="Pages.Register.CheckEmailToResetPassword" value="تفقد البريد الالكترونى لاعادة تعيين كلمة السر " />
+    <text name="Pages.Register.ResetPassword" value="اعادة تعيين كلمة السر" />
+
+
+		<!--Notification-->
+		<text name="Notification.Youradvertisementwasrejectedbecause" value="الاعلان الخاص بك الغي بسبب {0}" />
+		<text name="Notification.RejectAdvertisement" value="الاعلان الغي " />
+    <text name="Notification.YouradvertisemenIsDeleted" value="تم حذف الاعلان الخاص بك" />
+    <text name="Notification.DeleteAdvertisement" value="تم حذف الاعلان" />
+    <text name="Common.Error.UserWithNumberNotFound" value="لا يوجد حساب خاص بهذا الرقم" />
+	</texts>
+</localizationDictionary>

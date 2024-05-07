@@ -1,0 +1,80 @@
+
+<div class="container-fluid">
+    <div class="product-buttons col-sm-8 offset-xl-3 offset-sm-4 back">
+        <button type="button" (click)="BackList()" class="btn btn-primary mr-1 back">  <i class="fa fa-arrow-left"></i> {{this.l("Common.ReturnList")}}</button>
+    </div>
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="card" id="divCardUserPermissions">
+                    <div class="card-body">
+                        <table class="table table-light hoverTable user-per">
+                            <thead>
+                                <tr>
+                                    <th width="55%">
+                                    </th>
+                                    <th class="center" width="15%">
+                                        {{this.l("Permissions.Common.Read")}}
+                                    </th>
+                                    <th class="center" width="15%">
+                                        {{this.l("Permissions.Common.Write")}}
+                                    </th>
+                                    <th class="center" width="15%">
+                                        {{this.l("Permissions.Common.Delete")}}
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th width="55%">
+                                    </th>
+                                    <th class="center" width="15%">
+                                        <label class="d-block mb-0" for="readAll">
+                                            <input type="checkbox" class="checkbox_animated" id="readAll" name="readAll" (change)="checkAll('Read')" />
+                                        </label>
+                                    </th>
+                                    <th class="center" width="15%">
+                                        <label class="d-block mb-0" for="writeAll">
+                                            <input type="checkbox" class="checkbox_animated" id="writeAll" name="writeAll" (change)="checkAll('Write')" />
+                                        </label>
+                                    </th>
+                                    <th class="center" width="15%">
+                                        <label class="d-block mb-0" for="readAll">
+                                            <input type="checkbox" class="checkbox_animated" id="deleteAll" name="deleteAll" (change)="checkAll('Delete')" />
+                                        </label>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr *ngFor="let permission of groupedPermissions;let in = index" style="{{permission.isChild == true ? 'background-color: rgba(241, 244, 251, 0.5);' : '' }}">
+                                    <td style="{{permission.isChild == true ? 'padding: 0 30px;' : '' }}">
+                                        {{permission.localizedName}}
+                                    </td>
+                                    <td class="center">
+                                        <label class="d-block mb-0" for="{{in}}_{{permission.readName}}">
+                                            <input type="checkbox" class="checkbox_animated" id="{{in}}_{{permission.readName}}" name="{{in}}_{{permission.readName}}" *ngIf="permissionSource[permission.readName]" (change)="checkRead(permission,'Read')" [checked]="permissionSource[permission.readName].isGrantedUpdated" attr.parent="Read.{{permission.parentSystemName}}" />
+                                        </label>
+                                    </td>
+                                    <td class="center">
+                                        <label class="d-block mb-0" for="{{in}}_{{permission.writeName}}">
+                                            <input type="checkbox" class="checkbox_animated" *ngIf="permissionSource[permission.writeName]" id="{{in}}_{{permission.writeName}}" name="{{in}}_{{permission.writeName}}" (change)="checkRead(permission,'Write')" [checked]="permissionSource[permission.writeName].isGrantedUpdated" attr.parent="Write.{{permission.parentSystemName}}" />
+                                        </label>
+                                    </td>
+                                    <td class="center">
+                                        <label class="d-block mb-0" for="{{in}}_{{permission.deleteName}}">
+                                            <input type="checkbox" class="checkbox_animated" *ngIf="permissionSource[permission.deleteName]" id="{{in}}_{{permission.deleteName}}" name="{{in}}_{{permission.deleteName}}" (change)="checkRead(permission,'Delete')" [checked]="permissionSource[permission.deleteName].isGrantedUpdated" attr.parent="Delete.{{permission.parentSystemName}}" />
+                                        </label>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="form-actions">
+                            <hr />
+                            <div class="row">
+                                <div class="col-md-offset-3 col-md-9">
+                                    <button type="button" hasPermission permission="UserPermissions" permissionlevel="Write" class="btn btn-primary" (click)="savePermissions()">{{this.l("Common.Save")}}</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

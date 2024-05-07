@@ -1,0 +1,28 @@
+<nb-card style="width:500px;">
+    <nb-card-header>
+        {{this.l("Pages.Advertisements.ManageAdvertisement")}}
+        <div class=" float-right">
+            <a class="btn btn-icon" (click)="cancel()"><nb-icon [icon]="'close'" pack="eva"></nb-icon></a>
+        </div>
+    </nb-card-header>
+    <nb-card-body>
+        <form [formGroup]="selectedForm">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="form-group">
+                        <label for="rejectReason" class="label">{{this.l("Common.RejectReason")}}</label>
+                        <textarea type="text" nbInput fullWidth #rejectReason placeholder='{{this.l("Common.RejectReason")}}' [value]="selectedObj.rejectReason" [formControl]="selectedForm.controls['rejectReason']" [status]="!(selectedForm.controls.rejectReason?.dirty && selectedForm.controls.rejectReason?.invalid) ? '' : 'danger'" (change)="selectedObj.rejectReason = $event.target.value" required ></textarea>
+                        <small *ngIf="selectedForm.controls.rejectReason?.touched &&  selectedForm.controls.rejectReason.errors?.required" class="text-danger">
+                            <!-- selectedForm.controls.rejectReason?.dirty selectedForm.controls.rejectReason?.invalid &&-->
+                            {{l('Common.Error.Required')}}
+                        </small>
+                    </div>
+                </div>
+   
+            </div>
+                <button class="cancel" nbButton status="danger" (click)="cancel()">{{this.l("Common.Cancel") }}</button>
+                <button nbButton status="success" [disabled]="selectedForm.invalid" (click)="submit()">{{this.l("Common.Save") }}</button>
+
+</form>
+    </nb-card-body>
+</nb-card>

@@ -1,0 +1,8 @@
+<div class="row dashboard">
+   
+    <div class="col-md-5" *ngFor="let statusCard of countCards">
+        <ngx-status-card [title]="statusCard.title" [type]="statusCard.type" [link]="statusCard.link" [count]="statusCard.count  ">
+            <i [ngClass]="statusCard.iconClass"></i>
+        </ngx-status-card>
+    </div>
+</div>
